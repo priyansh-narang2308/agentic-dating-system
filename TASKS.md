@@ -39,7 +39,7 @@
 
 ## Phase 3: Premium UI & Design System (Tasks 8 - 12)
 
-- [ ] **Task 8: Global Theme & Layout Shell (Luxury Dark Mode + Rose Gold)**
+- [x] **Task 8: Global Theme & Layout Shell (Luxury Dark Mode + Rose Gold)**
   - Configure modern typography, glowing glassmorphism gradients, sticky dynamic navigation header, and status badges.
 - [ ] **Task 9: Hero Landing & "Live Onboarding" Ingestion Form**
   - Interactive hero banner with live statistics (25 Agents, 300+ Dates Simulated, AI-Grounded Compatibility).
