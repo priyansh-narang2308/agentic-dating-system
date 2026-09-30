@@ -41,7 +41,7 @@
 
 - [x] **Task 8: Global Theme & Layout Shell (Luxury Dark Mode + Rose Gold)**
   - Configure modern typography, glowing glassmorphism gradients, sticky dynamic navigation header, and status badges.
-- [ ] **Task 9: Hero Landing & "Live Onboarding" Ingestion Form**
+- [x] **Task 9: Hero Landing & "Live Onboarding" Ingestion Form**
   - Interactive hero banner with live statistics (25 Agents, 300+ Dates Simulated, AI-Grounded Compatibility).
   - Quick-input form for judges to paste any LinkedIn + Instagram URL to spawn their own agent in real time.
 - [ ] **Task 10: Real-time Ingestion Stepper & Scraping Visualizer**
