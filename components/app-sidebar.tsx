@@ -6,14 +6,8 @@ import { navGroups } from "@/components/app-shared";
 
 export function AppSidebar() {
   return (
-    <Sidebar
-      collapsible="icon"
-      variant="inset"
-      className="border-r border-border/40 bg-card"
-    >
+    <Sidebar collapsible="offcanvas" variant="floating" className="border-none">
       <SidebarContent className="px-2 py-3 space-y-4">
-
-
         {navGroups.map((group, index) => (
           <NavGroup key={`sidebar-group-${index}`} {...group} />
         ))}

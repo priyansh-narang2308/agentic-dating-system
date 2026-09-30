@@ -7,7 +7,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 		<div className="overflow-hidden">
 			<SidebarProvider className="relative h-svh">
 				<AppSidebar />
-				<SidebarInset className="md:peer-data-[variant=inset]:ml-0 min-w-0">
+				<SidebarInset className="min-w-0 md:m-2 md:rounded-3xl md:border md:border-border/50 md:shadow-md overflow-hidden bg-card/30">
 					<AppHeader />
 					<div className="flex flex-1 flex-col gap-4 overflow-y-auto overflow-x-hidden p-4 md:p-6 min-w-0">
 						{children}

@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { CustomSidebarTrigger } from "@/components/custom-sidebar-trigger";
 import { Separator } from "@/components/ui/separator";
-import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Home } from "lucide-react";
 
@@ -31,12 +30,6 @@ export function AppHeader() {
           <span className="font-sans font-bold text-sm text-foreground">
             {getPageTitle()}
           </span>
-          <Badge
-            variant="outline"
-            className="text-[10px] px-2 py-0 border-primary/30 text-primary hidden sm:inline-flex"
-          >
-            DUAL-SOURCE
-          </Badge>
         </div>
       </div>
 
