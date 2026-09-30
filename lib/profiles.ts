@@ -3,14 +3,14 @@ import path from "path";
 import profilesData from "../data/profiles.json";
 import { PersonProfile } from "../types";
 
-let cachedProfiles: PersonProfile[] = profilesData as PersonProfile[];
+const cachedProfiles: PersonProfile[] = profilesData as PersonProfile[];
 
 export function getAllProfiles(): PersonProfile[] {
   try {
     const filePath = path.join(process.cwd(), "data", "profiles.json");
     const data = fs.readFileSync(filePath, "utf8");
     return JSON.parse(data) as PersonProfile[];
-  } catch (err) {
+  } catch  {
     return cachedProfiles;
   }
 }

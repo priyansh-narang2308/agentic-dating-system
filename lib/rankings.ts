@@ -3,14 +3,14 @@ import path from "path";
 import rankingsData from "../data/rankings.json";
 import { PersonRanking } from "../types";
 
-let cachedRankings: PersonRanking[] = rankingsData as PersonRanking[];
+const cachedRankings: PersonRanking[] = rankingsData as PersonRanking[];
 
 export function getAllRankings(): PersonRanking[] {
   try {
     const filePath = path.join(process.cwd(), "data", "rankings.json");
     const data = fs.readFileSync(filePath, "utf8");
     return JSON.parse(data) as PersonRanking[];
-  } catch (err) {
+  } catch {
     return cachedRankings;
   }
 }
@@ -31,7 +31,7 @@ export function savePersonRanking(ranking: PersonRanking): void {
   } else {
     cachedRankings.unshift(ranking);
   }
-  
+
   try {
     const filePath = path.join(process.cwd(), "data", "rankings.json");
     fs.writeFileSync(filePath, JSON.stringify(cachedRankings, null, 2), "utf8");
