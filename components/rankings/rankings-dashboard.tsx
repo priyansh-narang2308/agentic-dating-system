@@ -108,8 +108,8 @@ export function RankingsDashboard({
               >
                 <CardContent className="p-5 space-y-4">
                   {/* Candidate Header */}
-                  <div className="flex items-center justify-between gap-3">
-                    <div className="flex items-center gap-3">
+                  <div className="flex items-center justify-between gap-3 min-w-0">
+                    <div className="flex items-center gap-3 min-w-0">
                       <div className="relative h-12 w-12 rounded-2xl overflow-hidden shrink-0 border border-primary/20 bg-muted">
                         <Image
                           src={ranking.personAvatar}
@@ -150,7 +150,7 @@ export function RankingsDashboard({
                         </span>
                       </div>
 
-                      <div className="flex items-center gap-2.5">
+                      <div className="flex items-center gap-2.5 min-w-0">
                         <div className="relative h-9 w-9 rounded-xl overflow-hidden shrink-0 border border-border/50">
                           <Image
                             src={topMatch.targetAvatar}

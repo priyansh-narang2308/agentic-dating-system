@@ -137,9 +137,6 @@ export function SandboxLauncher({
       <CardHeader className="pb-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2">
-            <span className="p-2 rounded-xl bg-primary/10 text-primary">
-              <Flame className="h-5 w-5" />
-            </span>
             <div>
               <CardTitle className="text-xl font-heading flex items-center gap-2">
                 Live Agent Matchmaker Sandbox
@@ -208,7 +205,9 @@ export function SandboxLauncher({
                         label={`${p.name} (${p.profession})`}
                       >
                         <div className="flex items-center gap-2 truncate">
-                          <span className="font-semibold text-foreground">{p.name}</span>
+                          <span className="font-semibold text-foreground">
+                            {p.name}
+                          </span>
                           <span className="text-[11px] text-muted-foreground truncate">
                             ({p.profession})
                           </span>
@@ -283,7 +282,9 @@ export function SandboxLauncher({
                         label={`${p.name} (${p.profession})`}
                       >
                         <div className="flex items-center gap-2 truncate">
-                          <span className="font-semibold text-foreground">{p.name}</span>
+                          <span className="font-semibold text-foreground">
+                            {p.name}
+                          </span>
                           <span className="text-[11px] text-muted-foreground truncate">
                             ({p.profession})
                           </span>

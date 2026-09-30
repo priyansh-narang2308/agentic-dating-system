@@ -170,29 +170,29 @@ export default function ProfilesPage() {
                 </div>
 
                 <div>
-                  <div className="flex items-center gap-2">
-                    <CardTitle className="text-lg font-sans text-foreground">
+                  <div className="flex items-center gap-2 min-w-0">
+                    <CardTitle className="text-lg font-sans text-foreground truncate">
                       {person.name}
                     </CardTitle>
                     <ShieldCheck className="h-4 w-4 text-primary shrink-0" />
                   </div>
-                  <CardDescription className="text-xs text-muted-foreground line-clamp-1 font-medium mt-0.5">
+                  <CardDescription className="text-xs text-muted-foreground truncate font-medium mt-0.5">
                     {person.profession} {person.companyOrOrg ? `• ${person.companyOrOrg}` : ""}
                   </CardDescription>
-                  <p className="text-[11px] text-muted-foreground/80 flex items-center gap-1 mt-1">
-                    <MapPin className="h-3 w-3 text-muted-foreground" />
-                    {person.city}
+                  <p className="text-[11px] text-muted-foreground/80 flex items-center gap-1 mt-1 truncate">
+                    <MapPin className="h-3 w-3 text-muted-foreground shrink-0" />
+                    <span className="truncate">{person.city}</span>
                   </p>
                 </div>
               </CardHeader>
 
               {/* Bio & Archetype */}
               <CardContent className="space-y-3 pb-3 text-xs">
-                <div className="rounded-xl bg-background/60 p-2.5 border border-border/40 space-y-1">
-                  <div className="flex items-center justify-between text-[11px]">
+                <div className="rounded-xl bg-background/60 p-2.5 border border-border/40 space-y-2">
+                  <div className="flex flex-col gap-1 text-[11px]">
                     <span className="text-muted-foreground font-medium">Psychological Archetype:</span>
-                    <Badge variant="outline" className="text-[10px] py-0 border-primary/40 text-primary">
-                      {person.analysis.personalityArchetype}
+                    <Badge variant="outline" className="text-[10px] py-0.5 border-primary/40 text-primary self-start max-w-full">
+                      <span className="truncate">{person.analysis.personalityArchetype}</span>
                     </Badge>
                   </div>
                   <p className="text-[11px] text-muted-foreground italic line-clamp-2 pt-0.5">
@@ -205,14 +205,14 @@ export default function ProfilesPage() {
                   <span className="text-[10px] uppercase font-semibold text-muted-foreground tracking-wider">
                     Core Needs:
                   </span>
-                  <div className="flex flex-wrap gap-1">
+                  <div className="flex flex-wrap gap-1 min-w-0">
                     {person.analysis.needs.emotional.slice(0, 2).map((need, idx) => (
                       <Badge
                         key={idx}
                         variant="secondary"
-                        className="text-[10px] px-2 py-0.5 bg-secondary/40 text-secondary-foreground font-normal border-0"
+                        className="text-[10px] px-2 py-0.5 bg-secondary/40 text-secondary-foreground font-normal border-0 max-w-full"
                       >
-                        {need}
+                        <span className="truncate">{need}</span>
                       </Badge>
                     ))}
                   </div>
@@ -223,14 +223,14 @@ export default function ProfilesPage() {
                   <span className="text-[10px] uppercase font-semibold text-muted-foreground tracking-wider">
                     Verified Hobbies:
                   </span>
-                  <div className="flex flex-wrap gap-1">
+                  <div className="flex flex-wrap gap-1 min-w-0">
                     {person.analysis.hobbies.slice(0, 3).map((hobby, idx) => (
                       <Badge
                         key={idx}
                         variant="outline"
-                        className="text-[10px] px-2 py-0.5 border-border text-foreground font-normal"
+                        className="text-[10px] px-2 py-0.5 border-border text-foreground font-normal max-w-full"
                       >
-                        {hobby}
+                        <span className="truncate">{hobby}</span>
                       </Badge>
                     ))}
                   </div>
