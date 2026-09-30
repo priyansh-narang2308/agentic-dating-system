@@ -2,8 +2,7 @@ import { getAllProfiles } from "@/lib/profiles";
 import { getAllDates } from "@/lib/dates";
 import { SandboxLauncher } from "@/components/dating/sandbox-launcher";
 import { DatesGrid } from "@/components/dating/dates-grid";
-import { Bot, HeartHandshake, History, Flame } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
+import { Bot } from "lucide-react";
 
 export default async function DatingArenaPage({
   searchParams,
@@ -16,7 +15,6 @@ export default async function DatingArenaPage({
 
   return (
     <div className="max-w-6xl mx-auto space-y-10 pb-16">
-      {/* Header section */}
       <div className="space-y-3">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold">
           <Bot className="h-3.5 w-3.5" />
@@ -31,11 +29,8 @@ export default async function DatingArenaPage({
           human&apos;s true psychological needs, dealbreakers, humor style, and
           hobbies extracted from public LinkedIn and Instagram.
         </p>
-
-
       </div>
 
-      {/* Live Sandbox Launcher */}
       <section className="space-y-4">
         <SandboxLauncher
           profiles={profiles}
@@ -44,7 +39,6 @@ export default async function DatingArenaPage({
         />
       </section>
 
-      {/* Pre-simulated Date Dialogues Showcase */}
       <section className="space-y-6 pt-4">
         <div className="flex items-center justify-between">
           <div>

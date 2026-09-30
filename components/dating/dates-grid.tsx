@@ -11,10 +11,9 @@ import {
   CheckCircle2,
   AlertCircle,
   Heart,
-  MessageCircle,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+
 import { buttonVariants } from "@/components/ui/button";
 
 interface DatesGridProps {
@@ -74,11 +73,8 @@ export function DatesGrid({ dates }: DatesGridProps) {
         </span>
       </div>
 
-      {/* Grid of Date Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {filteredDates.map((date) => {
-          const isHighMatch = date.verdict.overallScore >= 90;
-
           return (
             <Card
               key={date.id}
