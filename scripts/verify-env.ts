@@ -10,7 +10,7 @@ async function verifyEnvironment() {
 
   // 1. Verify Apify
   if (!apifyToken) {
-    console.error("❌ APIFY_API_TOKEN is missing in environment.");
+    console.error("APIFY_API_TOKEN is missing in environment.");
   } else {
     try {
       console.log("⏳ Testing Apify Client authentication...");
@@ -22,7 +22,7 @@ async function verifyEnvironment() {
         `   Username: ${user.username || user.email || "Active User"}`,
       );
     } catch (err: any) {
-      console.error("❌ Apify Authentication Error:", err.message);
+      console.error("Apify Authentication Error:", err.message);
     }
   }
 
@@ -30,38 +30,38 @@ async function verifyEnvironment() {
 
   // 2. Verify Gemini
   if (!geminiApiKey) {
-    console.error("❌ GEMINI_API_KEY is missing in environment.");
+    console.error("GEMINI_API_KEY is missing in environment.");
   } else {
     try {
-      console.log("⏳ Testing Gemini API with test prompt...");
+      console.log("Testing Gemini API with test prompt...");
       const genAI = new GoogleGenerativeAI(geminiApiKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+      const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
       const response = await model.generateContent(
         "Respond with the exact phrase: 'Agentic Dating System Ready'",
       );
       const text = response.response.text();
-      console.log(`✅ Gemini API Responded Successfully!`);
+      console.log(`Gemini API Responded Successfully!`);
       console.log(`   Model Output: "${text.trim()}"`);
     } catch (err: any) {
-      console.warn("⚠️ Standard Gemini Flash test note:", err.message);
+      console.warn("Standard Gemini Flash test note:", err.message);
       // Try fallback to gemini-1.5-flash
       try {
-        console.log("⏳ Retrying with gemini-1.5-flash...");
+        console.log("Retrying with gemini-flash-latest...");
         const genAI = new GoogleGenerativeAI(geminiApiKey);
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+        const model = genAI.getGenerativeModel({
+          model: "gemini-flash-latest",
+        });
         const response = await model.generateContent(
           "Respond with: 'Agentic Dating System Ready'",
         );
         console.log(
-          `✅ Gemini (1.5-flash) Responded: "${response.response.text().trim()}"`,
+          `Gemini (flash-latest) Responded: "${response.response.text().trim()}"`,
         );
       } catch (err2: any) {
-        console.error("❌ Gemini API Error:", err2.message);
+        console.error("Gemini API Error:", err2.message);
       }
     }
   }
-
-  console.log("\n🚀 Task 1 Verification Complete!");
 }
 
 verifyEnvironment().catch(console.error);

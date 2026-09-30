@@ -1,4 +1,4 @@
-# 🏆 AGENTIC DATING SYSTEM: MASTER TASK ROADMAP (24 TASKS)
+# AGENTIC DATING SYSTEM: MASTER TASK ROADMAP (24 TASKS)
 
 > **Challenge Objective**: Full-stack Agentic Dating Site with 25 real people, Apify scraping, Gemini agent persona analysis, simulated agent dates with multi-turn banter, mutual compatibility rankings, and a live URL ingestion pipeline for judges.
 
@@ -12,7 +12,7 @@
 - [x] **Task 2: Type Definitions & Domain Schema**
   - Define `PersonProfile`, `AgentPersona`, `ExtractedAnalysis` (needs, hobbies, interests, qualities, dealbreakers).
   - Define `DateDialogue`, `DateTurn`, `DateVerdict`, `CompatibilityScore`, `RankingItem`.
-- [ ] **Task 3: Apify Scraping Client & Robust Scraping Pipeline**
+- [x] **Task 3: Apify Scraping Client & Robust Scraping Pipeline**
   - Build `lib/apify.ts`: generic Actor runner with timeout guards, error boundaries, and dataset parsers for Instagram & LinkedIn.
   - Implement reliable fallback parsers for live demonstration resilience so judges' custom links never hit a hard crash or API rate limits.
 - [ ] **Task 4: Gemini AI Engine & Agent Persona Synthesis**
