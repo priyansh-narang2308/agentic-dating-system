@@ -6,11 +6,17 @@ import { navGroups } from "@/components/app-shared";
 
 export function AppSidebar() {
   return (
-    <Sidebar collapsible="offcanvas" variant="floating" className="border-none">
-      <SidebarContent className="px-2 py-3 space-y-4">
-        {navGroups.map((group, index) => (
-          <NavGroup key={`sidebar-group-${index}`} {...group} />
-        ))}
+    <Sidebar
+      collapsible="offcanvas"
+      variant="floating"
+      className="border-0 bg-transparent"
+    >
+      <SidebarContent className="bg-[#0D1B23] px-3 py-5">
+        <div className="space-y-6">
+          {navGroups.map((group, index) => (
+            <NavGroup key={index} {...group} />
+          ))}
+        </div>
       </SidebarContent>
     </Sidebar>
   );

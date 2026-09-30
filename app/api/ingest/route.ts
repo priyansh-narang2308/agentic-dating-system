@@ -45,20 +45,16 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Step 1: Ingest from Apify
     const scraped = await scrapeSocialProfiles(linkedinUrl, instagramUrl);
 
-    // Step 2: Synthesize Persona via Gemini
     const newPerson = await synthesizePersonAnalysis(
       scraped,
       linkedinUrl,
       instagramUrl,
     );
 
-    // Step 3: Add to pool
     addCustomProfile(newPerson);
 
-    // Step 4: Calculate rankings against all other candidates
     const allProfiles = getAllProfiles();
     const ranking = await calculateMutualRankings(newPerson, allProfiles);
     savePersonRanking(ranking);

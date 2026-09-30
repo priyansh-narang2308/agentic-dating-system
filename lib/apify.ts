@@ -55,7 +55,6 @@ export function extractUsernameFromUrl(
     const cleanUrl = url.trim().replace(/\/$/, "");
     const parts = cleanUrl.split("/");
     const slug = parts[parts.length - 1] || "";
-    // Remove query params
     return slug.split("?")[0].replace(/^@/, "");
   } catch {
     return platform === "linkedin" ? "professional" : "creator";
@@ -77,7 +76,7 @@ export async function runActorWithTimeout<T = any>(
   try {
     const run = await apify.actor(actorId).call(input, {
       waitSecs: timeoutSecs,
-      memory: 512, // cost-effective memory allocation
+      memory: 512,
     });
 
     logs.push(`${logPrefix} Run completed with status: ${run.status}`);
@@ -105,10 +104,6 @@ export async function runActorWithTimeout<T = any>(
   }
 }
 
-/**
- * Primary multi-source social scraper pipeline
- * Scrapes LinkedIn and Instagram, with graceful fallback extraction to guarantee 100% uptime for judges
- */
 export async function scrapeSocialProfiles(
   linkedinUrl: string,
   instagramUrl: string,
@@ -141,9 +136,7 @@ export async function scrapeSocialProfiles(
     skills: [],
   };
 
-  // Run scrapers in parallel with fault tolerance
-  const results = await Promise.allSettled([
-    // 1. Instagram Scraper via Apify
+  await Promise.allSettled([
     (async () => {
       logs.push(
         `[Apify:Instagram] Querying public profile for @${igUsername}...`,
@@ -189,7 +182,6 @@ export async function scrapeSocialProfiles(
       }
     })(),
 
-    // 2. LinkedIn Scraper via Apify
     (async () => {
       logs.push(
         `[Apify:LinkedIn] Querying public profile for ${liUsername}...`,

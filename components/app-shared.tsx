@@ -22,19 +22,16 @@ export type SidebarNavGroup = {
 
 export const navGroups: SidebarNavGroup[] = [
   {
-    label: "Agentic Network",
     items: [
       {
         title: "All Profiles (25)",
         path: "/profiles",
         icon: <UsersIcon className="h-4 w-4" />,
-        badge: "25",
       },
       {
         title: "Dating Arena",
         path: "/dating",
         icon: <MessageSquareHeartIcon className="h-4 w-4" />,
-        badge: "10 Live",
       },
       {
         title: "Match Rankings",

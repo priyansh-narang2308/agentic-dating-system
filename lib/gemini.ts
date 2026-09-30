@@ -6,7 +6,6 @@ import {
   DateTurn,
   DateVerdict,
   EvidenceSignal,
-  ExtractedAnalysis,
   MatchRankingItem,
   PersonProfile,
   PersonRanking,
@@ -53,9 +52,6 @@ export function cleanAndParseJson<T = any>(rawText: string, fallback: T): T {
   }
 }
 
-/**
- * Task 4.1: Synthesizes a psychological profile and agent persona from LinkedIn + Instagram data
- */
 export async function synthesizePersonAnalysis(
   scraped: RawScrapedData,
   linkedinUrl: string,
@@ -138,7 +134,7 @@ Return a STRICT JSON object with this exact shape:
 
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: prompt,
       config: {
         temperature: 0.3,
@@ -284,9 +280,6 @@ Return a STRICT JSON object with this exact shape:
   }
 }
 
-/**
- * Task 4.2: Simulates a multi-turn speed date between two agents representing their respective people
- */
 export async function simulateAgentDate(
   personA: PersonProfile,
   personB: PersonProfile,
@@ -398,7 +391,7 @@ Return STRICT JSON format:
 
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-1.5-flash",
       contents: prompt,
       config: {
         temperature: 0.7,
@@ -507,9 +500,6 @@ Return STRICT JSON format:
   }
 }
 
-/**
- * Task 4.3: Evaluates and generates a ranked match list of all candidates for a given person
- */
 export async function calculateMutualRankings(
   person: PersonProfile,
   candidates: PersonProfile[],

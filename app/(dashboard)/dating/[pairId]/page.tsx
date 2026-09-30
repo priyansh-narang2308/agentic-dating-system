@@ -10,10 +10,8 @@ export default async function SimulatedDateDetailPage({
 }) {
   const { pairId } = await params;
 
-  // Try direct date id lookup
   let dialogue = getDateById(pairId);
 
-  // If not found directly, try prefix stripping or pair split
   if (!dialogue) {
     const strippedId = pairId.replace(/^date-/, "");
     const parts = strippedId.split("-");

@@ -35,14 +35,12 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Run simulation via Gemini
     const dateDialogue = await simulateAgentDate(
       personA,
       personB,
       venue || "Cozy Artisan Espresso Bar in SoHo",
     );
 
-    // Save to dialogue cache
     saveDateDialogue(dateDialogue);
 
     return NextResponse.json({

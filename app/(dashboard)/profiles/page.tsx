@@ -47,7 +47,6 @@ export default function ProfilesPage() {
 
   return (
     <div className="space-y-6">
-      {/* Top Banner & Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-border/40 pb-5">
         <div>
           <div className="flex items-center gap-2 mb-1.5">
@@ -89,7 +88,6 @@ export default function ProfilesPage() {
         </div>
       </div>
 
-      {/* Search & Tag Filter Bar */}
       <div className="flex flex-col sm:flex-row items-center gap-3 justify-between">
         <div className="relative w-full sm:w-80">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground" />
@@ -122,7 +120,6 @@ export default function ProfilesPage() {
         </div>
       </div>
 
-      {/* Profiles Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-w-0">
         {filteredProfiles.map((person) => (
           <Card
@@ -130,7 +127,6 @@ export default function ProfilesPage() {
             className="glass-panel glass-panel-hover flex flex-col justify-between border-border/50 overflow-hidden min-w-0"
           >
             <div className="min-w-0">
-              {/* Header with Avatar & Base Info */}
               <CardHeader className="pb-3 space-y-3 min-w-0">
                 <div className="flex items-start justify-between gap-3 flex-wrap">
                   <div className="relative shrink-0">
@@ -186,7 +182,6 @@ export default function ProfilesPage() {
                 </div>
               </CardHeader>
 
-              {/* Bio & Archetype */}
               <CardContent className="space-y-3 pb-3 text-xs">
                 <div className="rounded-xl bg-background/60 p-2.5 border border-border/40 space-y-2">
                   <div className="flex flex-col gap-1 text-[11px]">
@@ -200,7 +195,6 @@ export default function ProfilesPage() {
                   </p>
                 </div>
 
-                {/* Needs Preview */}
                 <div className="space-y-1">
                   <span className="text-[10px] uppercase font-semibold text-muted-foreground tracking-wider">
                     Core Needs:
@@ -218,7 +212,6 @@ export default function ProfilesPage() {
                   </div>
                 </div>
 
-                {/* Hobbies Preview */}
                 <div className="space-y-1">
                   <span className="text-[10px] uppercase font-semibold text-muted-foreground tracking-wider">
                     Verified Hobbies:
@@ -238,7 +231,6 @@ export default function ProfilesPage() {
               </CardContent>
             </div>
 
-            {/* Card Footer Actions */}
             <CardFooter className="pt-2 pb-4 border-t border-border/30 flex items-center justify-between gap-2">
               <Link
                 href={`/profiles/${person.id}`}

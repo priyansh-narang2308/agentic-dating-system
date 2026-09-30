@@ -45,7 +45,6 @@ export default async function ProfileDetailPage({
 
   return (
     <div className="max-w-5xl mx-auto space-y-6 pb-12">
-      {/* Back Button */}
       <div className="flex items-center justify-between">
         <Link
           href="/profiles"
@@ -87,11 +86,9 @@ export default async function ProfileDetailPage({
         </div>
       </div>
 
-      {/* Hero Header Card */}
       <Card className="glass-panel border-primary/20 overflow-hidden shadow-xl">
         <CardContent className="p-6 sm:p-8">
           <div className="flex flex-col sm:flex-row items-start gap-6">
-            {/* Avatar Headshot */}
             <div className="relative shrink-0">
               <img
                 src={profile.avatarUrl}
@@ -104,7 +101,6 @@ export default async function ProfileDetailPage({
               />
             </div>
 
-            {/* Core Info & Badges */}
             <div className="flex-1 space-y-3">
               <div className="flex flex-wrap items-center justify-between gap-3">
                 <div>
@@ -123,7 +119,6 @@ export default async function ProfileDetailPage({
                   </p>
                 </div>
 
-                {/* Two Official Source Badges */}
                 <div className="flex items-center gap-2">
                   <a
                     href={profile.linkedinUrl}
@@ -146,7 +141,6 @@ export default async function ProfileDetailPage({
                 </div>
               </div>
 
-              {/* Bio & Location */}
               <p className="text-xs sm:text-sm text-foreground/90 leading-relaxed font-sans">
                 &quot;{profile.bio}&quot;
               </p>
@@ -170,7 +164,6 @@ export default async function ProfileDetailPage({
         </CardContent>
       </Card>
 
-      {/* Dating Philosophy & Energy Banner */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <Card className="glass-panel border-border/50">
           <CardContent className="p-4 space-y-1">
@@ -209,7 +202,6 @@ export default async function ProfileDetailPage({
         </Card>
       </div>
 
-      {/* Main Analysis Tabs: Needs · Hobbies · Interests · Qualities */}
       <Card className="glass-panel border-border/60">
         <CardHeader className="pb-3 border-b border-border/30">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
@@ -261,7 +253,6 @@ export default async function ProfileDetailPage({
               </TabsTrigger>
             </TabsList>
 
-            {/* TAB 1: NEEDS */}
             <TabsContent value="needs" className="space-y-5 mt-0">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="rounded-2xl border border-border/60 bg-background/50 p-4 space-y-2">
@@ -326,7 +317,6 @@ export default async function ProfileDetailPage({
               </div>
             </TabsContent>
 
-            {/* TAB 2: HOBBIES */}
             <TabsContent value="hobbies" className="space-y-3 mt-0">
               <p className="text-xs text-muted-foreground">
                 Verified leisure activities, sports, and creative crafts
@@ -346,7 +336,6 @@ export default async function ProfileDetailPage({
               </div>
             </TabsContent>
 
-            {/* TAB 3: INTERESTS */}
             <TabsContent value="interests" className="space-y-3 mt-0">
               <p className="text-xs text-muted-foreground">
                 Intellectual, artistic, and cultural passions observed across
@@ -366,7 +355,6 @@ export default async function ProfileDetailPage({
               </div>
             </TabsContent>
 
-            {/* TAB 4: QUALITIES */}
             <TabsContent value="qualities" className="space-y-3 mt-0">
               <p className="text-xs text-muted-foreground">
                 Observed strengths, interpersonal temperament, and personality
@@ -388,7 +376,6 @@ export default async function ProfileDetailPage({
         </CardContent>
       </Card>
 
-      {/* Grounded Evidence Explorer (Strict Challenge Requirement) */}
       <Card className="glass-panel border-border/50">
         <CardHeader className="pb-3">
           <div className="flex items-center justify-between">
@@ -446,7 +433,6 @@ export default async function ProfileDetailPage({
         </CardContent>
       </Card>
 
-      {/* Top Compatibility Matches Preview */}
       {topMatches.length > 0 && (
         <div className="space-y-3 pt-2">
           <div className="flex items-center justify-between">
