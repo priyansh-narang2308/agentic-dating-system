@@ -1,0 +1,932 @@
+[
+  {
+    "id": "date-guillermo_rauch-melanie_perkins",
+    "personAId": "guillermo_rauch",
+    "personBId": "melanie_perkins",
+    "personAName": "Guillermo Rauch",
+    "personBName": "Melanie Perkins",
+    "personAAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+    "venue": "Sunset Rooftop Lounge overlooking Sydney Harbour",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "guillermo_rauch",
+        "speakerName": "Guillermo Rauch",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Melanie. I was admiring your work with Canva—the deliberate care you put into craftsmanship and Global poverty alleviation is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Melanie Perkins's demeanor matches Guillermo Rauch's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "melanie_perkins",
+        "speakerName": "Melanie Perkins",
+        "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Distributed systems the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Guillermo Rauch respect autonomy and non-work passions like Kite surfing?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "guillermo_rauch",
+        "speakerName": "Guillermo Rauch",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Espresso preparation, followed by Reading classic literature. I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Melanie Perkins values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "melanie_perkins",
+        "speakerName": "Melanie Perkins",
+        "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Kite surfing and Scuba diving. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "guillermo_rauch",
+        "speakerName": "Guillermo Rauch",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "melanie_perkins",
+        "speakerName": "Melanie Perkins",
+        "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Melanie Perkins.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Guillermo Rauch and Melanie Perkins. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Distributed systems",
+        "Complementary recharge rhythms (Espresso preparation & Kite surfing)",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Guillermo Rauch: Outstanding match. Melanie Perkins brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Melanie Perkins: Exceptional connection. Guillermo Rauch appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  },
+  {
+    "id": "date-pieter_levels-sara_blakely",
+    "personAId": "pieter_levels",
+    "personBId": "sara_blakely",
+    "personAName": "Pieter Levels",
+    "personBName": "Sara Blakely",
+    "personAAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=80",
+    "venue": "Eclectic Underground Jazz Bar in Amsterdam",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "pieter_levels",
+        "speakerName": "Pieter Levels",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Sara. I was admiring your work with Spanx—the deliberate care you put into craftsmanship and Female entrepreneurship is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Sara Blakely's demeanor matches Pieter Levels's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "sara_blakely",
+        "speakerName": "Sara Blakely",
+        "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Bootstrapping economics the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Pieter Levels respect autonomy and non-work passions like Sneaker customization?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "pieter_levels",
+        "speakerName": "Pieter Levels",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Electronic music production, followed by Street photography. I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Sara Blakely values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "sara_blakely",
+        "speakerName": "Sara Blakely",
+        "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Sneaker customization and Stand-up comedy appreciation. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "pieter_levels",
+        "speakerName": "Pieter Levels",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "sara_blakely",
+        "speakerName": "Sara Blakely",
+        "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Sara Blakely.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Pieter Levels and Sara Blakely. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Bootstrapping economics",
+        "Complementary recharge rhythms (Electronic music production & Sneaker customization)",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Pieter Levels: Outstanding match. Sara Blakely brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Sara Blakely: Exceptional connection. Pieter Levels appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  },
+  {
+    "id": "date-brian_chesky-tiffany_zhong",
+    "personAId": "brian_chesky",
+    "personBId": "tiffany_zhong",
+    "personAName": "Brian Chesky",
+    "personBName": "Tiffany Zhong",
+    "personAAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+    "venue": "Architectural Glasshouse Espresso Bar in Venice Beach",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "brian_chesky",
+        "speakerName": "Brian Chesky",
+        "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Tiffany. I was admiring your work with Islands—the deliberate care you put into craftsmanship and Consumer internet trends is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Tiffany Zhong's demeanor matches Brian Chesky's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "tiffany_zhong",
+        "speakerName": "Tiffany Zhong",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Mid-century modern furniture the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Brian Chesky respect autonomy and non-work passions like Ceremony-grade matcha tasting?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "brian_chesky",
+        "speakerName": "Brian Chesky",
+        "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Bodybuilding, followed by Playing with his Golden Retriever (Sophie). I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Tiffany Zhong values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "tiffany_zhong",
+        "speakerName": "Tiffany Zhong",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Ceremony-grade matcha tasting and Curating vintage fashion. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "brian_chesky",
+        "speakerName": "Brian Chesky",
+        "avatarUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "tiffany_zhong",
+        "speakerName": "Tiffany Zhong",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Tiffany Zhong.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Brian Chesky and Tiffany Zhong. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Mid-century modern furniture",
+        "Complementary recharge rhythms (Bodybuilding & Ceremony-grade matcha tasting)",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Brian Chesky: Outstanding match. Tiffany Zhong brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Tiffany Zhong: Exceptional connection. Brian Chesky appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  },
+  {
+    "id": "date-andrej_karpathy-cleo_abram",
+    "personAId": "andrej_karpathy",
+    "personBId": "cleo_abram",
+    "personAName": "Andrej Karpathy",
+    "personBName": "Cleo Abram",
+    "personAAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+    "venue": "Private Observatory Deck under Northern California Stars",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "andrej_karpathy",
+        "speakerName": "Andrej Karpathy",
+        "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Cleo. I was admiring your work with Huge If True—the deliberate care you put into craftsmanship and Nuclear fusion reactors is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Cleo Abram's demeanor matches Andrej Karpathy's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "cleo_abram",
+        "speakerName": "Cleo Abram",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Large language models the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Andrej Karpathy respect autonomy and non-work passions like Formula 1 racing analysis?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "andrej_karpathy",
+        "speakerName": "Andrej Karpathy",
+        "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Speedcubing (Rubik's cubes), followed by Video editing educational tutorials. I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Cleo Abram values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "cleo_abram",
+        "speakerName": "Cleo Abram",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Formula 1 racing analysis and Biking through Manhattan. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "andrej_karpathy",
+        "speakerName": "Andrej Karpathy",
+        "avatarUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "cleo_abram",
+        "speakerName": "Cleo Abram",
+        "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Cleo Abram.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Andrej Karpathy and Cleo Abram. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Large language models",
+        "Complementary recharge rhythms (Speedcubing (Rubik's cubes) & Formula 1 racing analysis)",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Andrej Karpathy: Outstanding match. Cleo Abram brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Cleo Abram: Exceptional connection. Andrej Karpathy appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  },
+  {
+    "id": "date-alexis_ohanian-grace_beverley",
+    "personAId": "alexis_ohanian",
+    "personBId": "grace_beverley",
+    "personAName": "Alexis Ohanian",
+    "personBName": "Grace Beverley",
+    "personAAvatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=80",
+    "venue": "Private Athletic Club & Specialty Juice Bar in London",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "alexis_ohanian",
+        "speakerName": "Alexis Ohanian",
+        "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Grace. I was admiring your work with TALA—the deliberate care you put into craftsmanship and Sustainable textiles and circular fashion is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Grace Beverley's demeanor matches Alexis Ohanian's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "grace_beverley",
+        "speakerName": "Grace Beverley",
+        "avatarUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Women's soccer (Angel City FC) the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Alexis Ohanian respect autonomy and non-work passions like Classical piano and violin?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "alexis_ohanian",
+        "speakerName": "Alexis Ohanian",
+        "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Gourmet pancake art, followed by Sports card collecting. I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Grace Beverley values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "grace_beverley",
+        "speakerName": "Grace Beverley",
+        "avatarUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Classical piano and violin and Powerlifting and gym workouts. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "alexis_ohanian",
+        "speakerName": "Alexis Ohanian",
+        "avatarUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "grace_beverley",
+        "speakerName": "Grace Beverley",
+        "avatarUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Grace Beverley.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Alexis Ohanian and Grace Beverley. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Women's soccer (Angel City FC)",
+        "Complementary recharge rhythms (Gourmet pancake art & Classical piano and violin)",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Alexis Ohanian: Outstanding match. Grace Beverley brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Grace Beverley: Exceptional connection. Alexis Ohanian appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  },
+  {
+    "id": "date-sahil_lavingia-stephanie_hurlburt",
+    "personAId": "sahil_lavingia",
+    "personBId": "stephanie_hurlburt",
+    "personAName": "Sahil Lavingia",
+    "personBName": "Stephanie Hurlburt",
+    "personAAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80",
+    "venue": "Quiet Greenhouse Cafe on a Rainy Seattle Afternoon",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "sahil_lavingia",
+        "speakerName": "Sahil Lavingia",
+        "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Stephanie. I was admiring your work with Binomial—the deliberate care you put into craftsmanship and GPU architecture and shaders is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Stephanie Hurlburt's demeanor matches Sahil Lavingia's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "stephanie_hurlburt",
+        "speakerName": "Stephanie Hurlburt",
+        "avatarUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Creator economy monetization the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Sahil Lavingia respect autonomy and non-work passions like Indoor and outdoor gardening?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "sahil_lavingia",
+        "speakerName": "Sahil Lavingia",
+        "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Oil painting on canvas, followed by Writing essays and fiction. I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Stephanie Hurlburt values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "stephanie_hurlburt",
+        "speakerName": "Stephanie Hurlburt",
+        "avatarUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Indoor and outdoor gardening and Sourdough baking. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "sahil_lavingia",
+        "speakerName": "Sahil Lavingia",
+        "avatarUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "stephanie_hurlburt",
+        "speakerName": "Stephanie Hurlburt",
+        "avatarUrl": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Stephanie Hurlburt.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Sahil Lavingia and Stephanie Hurlburt. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Creator economy monetization",
+        "Complementary recharge rhythms (Oil painting on canvas & Indoor and outdoor gardening)",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Sahil Lavingia: Outstanding match. Stephanie Hurlburt brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Stephanie Hurlburt: Exceptional connection. Sahil Lavingia appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  },
+  {
+    "id": "date-amjad_masad-katrina_lake",
+    "personAId": "amjad_masad",
+    "personBId": "katrina_lake",
+    "personAName": "Amjad Masad",
+    "personBName": "Katrina Lake",
+    "personAAvatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+    "venue": "Intimate Library Lounge in Pacific Heights",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "amjad_masad",
+        "speakerName": "Amjad Masad",
+        "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Katrina. I was admiring your work with Stitch Fix—the deliberate care you put into craftsmanship and Data science algorithms in retail is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Katrina Lake's demeanor matches Amjad Masad's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "katrina_lake",
+        "speakerName": "Katrina Lake",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Programming languages the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Amjad Masad respect autonomy and non-work passions like Downhill skiing in Tahoe?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "amjad_masad",
+        "speakerName": "Amjad Masad",
+        "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Reading history of computing, followed by Hiking coastal redwoods. I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Katrina Lake values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "katrina_lake",
+        "speakerName": "Katrina Lake",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Downhill skiing in Tahoe and Wine tasting in Sonoma. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "amjad_masad",
+        "speakerName": "Amjad Masad",
+        "avatarUrl": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "katrina_lake",
+        "speakerName": "Katrina Lake",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Katrina Lake.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Amjad Masad and Katrina Lake. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Programming languages",
+        "Complementary recharge rhythms (Reading history of computing & Downhill skiing in Tahoe)",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Amjad Masad: Outstanding match. Katrina Lake brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Katrina Lake: Exceptional connection. Amjad Masad appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  },
+  {
+    "id": "date-marques_brownlee-justine_ezarik",
+    "personAId": "marques_brownlee",
+    "personBId": "justine_ezarik",
+    "personAName": "Marques Brownlee",
+    "personBName": "Justine Ezarik",
+    "personAAvatar": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+    "venue": "Sunset Pacific Coast Highway Drive & Oceanside Diner",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "marques_brownlee",
+        "speakerName": "Marques Brownlee",
+        "avatarUrl": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Justine. I was admiring your work with iJustine—the deliberate care you put into craftsmanship and Apple product hardware evolution is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Justine Ezarik's demeanor matches Marques Brownlee's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "justine_ezarik",
+        "speakerName": "Justine Ezarik",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Electric car engineering the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Marques Brownlee respect autonomy and non-work passions like Co-op gaming (Zelda, Mario)?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "marques_brownlee",
+        "speakerName": "Marques Brownlee",
+        "avatarUrl": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Ultimate frisbee (professional league), followed by Robotic camera cinematography. I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Justine Ezarik values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "justine_ezarik",
+        "speakerName": "Justine Ezarik",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Co-op gaming (Zelda, Mario) and Drone aerial photography. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "marques_brownlee",
+        "speakerName": "Marques Brownlee",
+        "avatarUrl": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "justine_ezarik",
+        "speakerName": "Justine Ezarik",
+        "avatarUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Justine Ezarik.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Marques Brownlee and Justine Ezarik. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Electric car engineering",
+        "Complementary recharge rhythms (Ultimate frisbee (professional league) & Co-op gaming (Zelda, Mario))",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Marques Brownlee: Outstanding match. Justine Ezarik brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Justine Ezarik: Exceptional connection. Marques Brownlee appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  },
+  {
+    "id": "date-shaan_puri-alex_lieberman",
+    "personAId": "shaan_puri",
+    "personBId": "alex_lieberman",
+    "personAName": "Shaan Puri",
+    "personBName": "Alex Lieberman",
+    "personAAvatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+    "venue": "Pickleball Court followed by Artisanal Taco Truck",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "shaan_puri",
+        "speakerName": "Shaan Puri",
+        "avatarUrl": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Alex. I was admiring your work with Morning Brew—the deliberate care you put into craftsmanship and Newsletter business models is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Alex Lieberman's demeanor matches Shaan Puri's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "alex_lieberman",
+        "speakerName": "Alex Lieberman",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Frameworks for wealth and happiness the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Shaan Puri respect autonomy and non-work passions like Pickleball tournaments?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "shaan_puri",
+        "speakerName": "Shaan Puri",
+        "avatarUrl": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Brazilian Jiu-Jitsu, followed by Cold plunging & sauna sessions. I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Alex Lieberman values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "alex_lieberman",
+        "speakerName": "Alex Lieberman",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Pickleball tournaments and Journaling about anxiety & growth. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "shaan_puri",
+        "speakerName": "Shaan Puri",
+        "avatarUrl": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "alex_lieberman",
+        "speakerName": "Alex Lieberman",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Alex Lieberman.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Shaan Puri and Alex Lieberman. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Frameworks for wealth and happiness",
+        "Complementary recharge rhythms (Brazilian Jiu-Jitsu & Pickleball tournaments)",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Shaan Puri: Outstanding match. Alex Lieberman brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Alex Lieberman: Exceptional connection. Shaan Puri appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  },
+  {
+    "id": "date-jack_conte-dan_abramov",
+    "personAId": "jack_conte",
+    "personBId": "dan_abramov",
+    "personAName": "Jack Conte",
+    "personBName": "Dan Abramov",
+    "personAAvatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+    "personBAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+    "venue": "Vintage Analog Synth Studio in Shoreditch",
+    "vibe": "High-agency synergy with sparkling conversational rhythm and mutual admiration",
+    "turns": [
+      {
+        "turnNumber": 1,
+        "speakerId": "jack_conte",
+        "speakerName": "Jack Conte",
+        "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+        "text": "It's truly a pleasure to meet you, Dan. I was admiring your work with Bluesky—the deliberate care you put into craftsmanship and Mental models of computation is rare.",
+        "innerThought": "Probing initial conversational rhythm. Assessing if Dan Abramov's demeanor matches Jack Conte's need for intellectual depth and shared ambition.",
+        "emotion": "curious",
+        "chemistryDelta": 6
+      },
+      {
+        "turnNumber": 2,
+        "speakerId": "dan_abramov",
+        "speakerName": "Dan Abramov",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "text": "Thank you! Coming from someone who obsesses over Direct creator monetization the way you do, that means a lot. For me, life is unlivable without creative momentum. When you're not building, what does quiet time look like?",
+        "innerThought": "Testing lifestyle and emotional alignment. Checking for dealbreakers: does Jack Conte respect autonomy and non-work passions like Listening to experimental electronic and ambient music?",
+        "emotion": "intrigued",
+        "chemistryDelta": 8
+      },
+      {
+        "turnNumber": 3,
+        "speakerId": "jack_conte",
+        "speakerName": "Jack Conte",
+        "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+        "text": "Quiet time usually starts with Playing vintage organs and synths, followed by Woodworking and robotics art. I've found that stillness is where the best intuitions are born. What about you—how do you recharge from the intensity?",
+        "innerThought": "Strong positive signal: Dan Abramov values deep life design over superficial small talk. Communication style is transparent and warm.",
+        "emotion": "playful",
+        "chemistryDelta": 7
+      },
+      {
+        "turnNumber": 4,
+        "speakerId": "dan_abramov",
+        "speakerName": "Dan Abramov",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "text": "For me, it's Listening to experimental electronic and ambient music and Writing reflective essays. There's something grounding about being completely immersed in the moment. I need a partner who can be intensely focused one hour, and spontaneously playful the next.",
+        "innerThought": "Direct alignment on core values. Emotional safety verified. High mutual attraction detected across communication tempo.",
+        "emotion": "charmed",
+        "chemistryDelta": 9
+      },
+      {
+        "turnNumber": 5,
+        "speakerId": "jack_conte",
+        "speakerName": "Jack Conte",
+        "avatarUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+        "text": "I couldn't agree more. The ideal partnership isn't about two people staring at each other; it's about looking forward in the same direction, laughing through the chaos. Would you be open to continuing this conversation over dinner?",
+        "innerThought": "Client need for 'intellectual alignment on high ambitions' and 'calm presence' completely fulfilled. Recommendation: Proceed to second date immediately.",
+        "emotion": "deep",
+        "chemistryDelta": 10
+      },
+      {
+        "turnNumber": 6,
+        "speakerId": "dan_abramov",
+        "speakerName": "Dan Abramov",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "text": "Consider dinner booked. This was by far the most stimulating and authentic conversation I've had in a very long time. Let's do it!",
+        "innerThought": "Verdict confirmed: Agent B unconditionally approves second date. Sending glowing debrief report back to Dan Abramov.",
+        "emotion": "amused",
+        "chemistryDelta": 8
+      }
+    ],
+    "verdict": {
+      "overallScore": 94,
+      "chemistryScore": 96,
+      "lifestyleScore": 91,
+      "valuesScore": 95,
+      "summary": "Electric conversational chemistry between Jack Conte and Dan Abramov. Strong mutual alignment across creative ambition, aesthetic standards, and lifestyle independence.",
+      "strengths": [
+        "Shared reverence for craftsmanship and Direct creator monetization",
+        "Complementary recharge rhythms (Playing vintage organs and synths & Listening to experimental electronic and ambient music)",
+        "Transparent, high-agency communication style"
+      ],
+      "frictionPoints": [
+        "Both maintain demanding global travel commitments"
+      ],
+      "secondDateApproved": true,
+      "agentAComment": "Debrief for Jack Conte: Outstanding match. Dan Abramov brings intellectual resonance, zero pretension, and shared values. Strongly recommend meeting in person.",
+      "agentBComment": "Debrief for Dan Abramov: Exceptional connection. Jack Conte appreciates your autonomy, matches your wit, and genuinely inspires. Green light for Date #2!",
+      "highlightMoment": "Exchange on balancing relentless creative ambition with spontaneous weekend recharge rituals."
+    },
+    "createdAt": "2026-09-30T13:11:38.110Z"
+  }
+]

@@ -32,7 +32,7 @@
     - Interests (books, technology, music, culinary).
     - Qualities & Quirks (strengths, communication style, humor type).
     - Grounded Evidence Citations (exact signals derived from LinkedIn & Instagram).
-- [ ] **Task 7: Pre-compute Match Matrix & Dating Dialogue Archive**
+- [x] **Task 7: Pre-compute Match Matrix & Dating Dialogue Archive**
   - Pre-generate realistic, high-chemistry simulated dating dialogues across key pairs so the judges can instantly explore and watch live dates without waiting 60s for LLM generation.
 
 ---
