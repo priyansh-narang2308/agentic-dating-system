@@ -5,7 +5,8 @@ import {
   synthesizePersonAnalysis,
   calculateMutualRankings,
 } from "@/lib/gemini";
-import { getAllProfiles, addCustomProfile } from "@/lib/profiles";
+import { getAllProfiles } from "@/lib/profiles";
+import { addCustomProfileServer } from "@/lib/profiles-server";
 import { savePersonRanking } from "@/lib/rankings";
 
 export async function POST(req: NextRequest) {
@@ -53,7 +54,7 @@ export async function POST(req: NextRequest) {
       instagramUrl,
     );
 
-    addCustomProfile(newPerson);
+    addCustomProfileServer(newPerson);
 
     const allProfiles = getAllProfiles();
     const ranking = await calculateMutualRankings(newPerson, allProfiles);
