@@ -9,7 +9,7 @@
 - [x] **Task 1: Core Dependencies & SDK Setup**
   - Install `@google/genai` (or `@google/generative-ai`), `apify-client`, `lucide-react`, `framer-motion`, `canvas-confetti`, `class-variance-authority`, `clsx`, `tailwind-merge`.
   - Validate environment variables (`APIFY_API_TOKEN`, `GEMINI_API_KEY`).
-- [ ] **Task 2: Type Definitions & Domain Schema**
+- [x] **Task 2: Type Definitions & Domain Schema**
   - Define `PersonProfile`, `AgentPersona`, `ExtractedAnalysis` (needs, hobbies, interests, qualities, dealbreakers).
   - Define `DateDialogue`, `DateTurn`, `DateVerdict`, `CompatibilityScore`, `RankingItem`.
 - [ ] **Task 3: Apify Scraping Client & Robust Scraping Pipeline**
