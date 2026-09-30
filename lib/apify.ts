@@ -34,7 +34,6 @@ export interface RawScrapedData {
   durationMs: number;
 }
 
-
 let apifyClientInstance: ApifyClient | null = null;
 
 export function getApifyClient(): ApifyClient {
@@ -47,7 +46,6 @@ export function getApifyClient(): ApifyClient {
   }
   return apifyClientInstance;
 }
-
 
 export function extractUsernameFromUrl(
   url: string,
@@ -63,7 +61,6 @@ export function extractUsernameFromUrl(
     return platform === "linkedin" ? "professional" : "creator";
   }
 }
-
 
 export async function runActorWithTimeout<T = any>(
   actorId: string,

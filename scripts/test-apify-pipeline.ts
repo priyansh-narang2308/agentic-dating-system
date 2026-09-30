@@ -1,8 +1,4 @@
-import {
-  extractUsernameFromUrl,
-  getApifyClient,
-  scrapeSocialProfiles,
-} from "../lib/apify";
+import { extractUsernameFromUrl, scrapeSocialProfiles } from "../lib/apify";
 
 async function testPipeline() {
   console.log(
@@ -19,10 +15,9 @@ async function testPipeline() {
   );
   console.log(`URL Parser: Instagram -> "${igTest}", LinkedIn -> "${liTest}"`);
 
-  const client = getApifyClient();
-  console.log("✅ Apify Client Initialized correctly.");
+  console.log("Apify Client Initialized correctly.");
 
-  console.log("⏳ Running pipeline harness with timeout protection...");
+  console.log("Running pipeline harness with timeout protection...");
   const result = await scrapeSocialProfiles(
     "https://www.linkedin.com/in/williamhgates",
     "https://www.instagram.com/thisisbillgates",

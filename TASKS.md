@@ -15,14 +15,14 @@
 - [x] **Task 3: Apify Scraping Client & Robust Scraping Pipeline**
   - Build `lib/apify.ts`: generic Actor runner with timeout guards, error boundaries, and dataset parsers for Instagram & LinkedIn.
   - Implement reliable fallback parsers for live demonstration resilience so judges' custom links never hit a hard crash or API rate limits.
-- [ ] **Task 4: Gemini AI Engine & Agent Persona Synthesis**
+- [x] **Task 4: Gemini AI Engine & Agent Persona Synthesis**
   - Build `lib/gemini.ts`: Multi-agent prompts for (1) Persona Extraction from social evidence, (2) Multi-turn Agent Date Simulation, (3) Compatibility & Ranking Evaluation.
 
 ---
 
 ## Phase 2: The 25 Real People Dataset & Verified Sources (Tasks 5 - 7)
 
-- [ ] **Task 5: Curate 25 Real People with Public LinkedIn + Public Instagram**
+- [x] **Task 5: Curate 25 Real People with Public LinkedIn + Public Instagram**
   - Select 25 real verified professionals, founders, creatives, and engineers with genuine public LinkedIn & Instagram profiles.
   - Structure `data/people.json` with verified links, public avatars, and professional backgrounds.
 - [ ] **Task 6: High-Fidelity Persona Dossiers & Grounded Evidence Generation**
