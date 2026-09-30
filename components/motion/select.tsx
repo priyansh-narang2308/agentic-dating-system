@@ -275,12 +275,13 @@ export function SelectValue({ placeholder, className }: SelectValueProps) {
 
 export interface SelectContentProps {
   className?: string;
+  maxHeight?: number;
   children: ReactNode;
 }
 
-export function SelectContent({ className, children }: SelectContentProps) {
+export function SelectContent({ className, maxHeight = 280, children }: SelectContentProps) {
   const ctx = useSelectContext("SelectContent");
-  const innerRef = useRef<HTMLDivElement>(null);
+  const innerRef = useRef<HTMLUListElement>(null);
   const [height, setHeight] = useState(0);
   const open = ctx.open;
   const { setPlacement } = ctx;
@@ -302,11 +303,11 @@ export function SelectContent({ className, children }: SelectContentProps) {
     const node = innerRef.current;
     if (!trigger || !node) return;
     const rect = trigger.getBoundingClientRect();
-    const h = node.offsetHeight;
+    const h = Math.min(node.offsetHeight, maxHeight);
     const below = window.innerHeight - rect.bottom;
     const above = rect.top;
     setPlacement(below < h + 16 && above > below ? "top" : "bottom");
-  }, [open, ctx.triggerId, setPlacement]);
+  }, [open, ctx.triggerId, setPlacement, maxHeight]);
 
   // Specify EVERY corner + both margins each render. The near edge (facing the
   // trigger) animates flat->round and the gap opens on that side; the far edge
@@ -323,6 +324,8 @@ export function SelectContent({ className, children }: SelectContentProps) {
     ? { duration: 0.3, ease: EASE_OUT, delay: 0.14 }
     : { duration: 0.16, ease: EASE_OUT };
 
+  const targetHeight = Math.min(height, maxHeight);
+
   // Items stay mounted (open just animates the panel) so each item's label
   // registration persists — otherwise the trigger would fall back to the
   // placeholder the moment the panel closes.
@@ -336,10 +339,10 @@ export function SelectContent({ className, children }: SelectContentProps) {
       initial={false}
       animate={
         ctx.reduce
-          ? { opacity: open ? 1 : 0, height: open ? height : 0 }
+          ? { opacity: open ? 1 : 0, height: open ? targetHeight : 0 }
           : {
               opacity: open ? 1 : 0,
-              height: open ? height : 0,
+              height: open ? targetHeight : 0,
               // gap opens on the side facing the trigger
               marginTop: isTop ? 0 : nearGap,
               marginBottom: isTop ? nearGap : 0,
@@ -370,32 +373,34 @@ export function SelectContent({ className, children }: SelectContentProps) {
       }
       style={{
         transformOrigin: isTop ? "bottom" : "top",
-        overflow: "hidden",
+        overflowY: open && height > maxHeight ? "auto" : "hidden",
+        overflowX: "hidden",
         pointerEvents: open ? "auto" : "none",
       }}
       // flush against the trigger, then separates into its own rounded pill;
       // sits above or below depending on available space
       className={cn(
-        "absolute left-0 right-0 z-20 rounded-xl border border-border bg-background shadow-lg",
+        "absolute left-0 right-0 z-50 rounded-xl border border-border bg-card/95 backdrop-blur-md shadow-xl",
         isTop ? "bottom-full" : "top-full",
         className,
       )}
     >
-      <motion.div
+      <motion.ul
         ref={innerRef}
         variants={ctx.reduce ? undefined : LIST_VARIANTS}
         initial={false}
         animate={open ? "show" : "hidden"}
-        className="p-1"
+        className="p-1 list-none m-0"
       >
         {children}
-      </motion.div>
+      </motion.ul>
     </motion.div>
   );
 }
 
 export interface SelectItemProps {
   value: string;
+  label?: string;
   disabled?: boolean;
   className?: string;
   children: ReactNode;
@@ -403,18 +408,20 @@ export interface SelectItemProps {
 
 export function SelectItem({
   value,
+  label,
   disabled = false,
   className,
   children,
 }: SelectItemProps) {
   const ctx = useSelectContext("SelectItem");
   const selected = ctx.value === value;
-  const label = typeof children === "string" ? children : value;
+  const itemLabel = label ?? (typeof children === "string" ? children : value);
 
   useLayoutEffect(() => {
-    ctx.register(value, label);
+    ctx.register(value, itemLabel);
     return () => ctx.unregister(value);
-  }, [ctx.register, ctx.unregister, value, label]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ctx.register, ctx.unregister, value, itemLabel]);
 
   return (
     <motion.li variants={ctx.reduce ? undefined : ITEM_VARIANTS}>

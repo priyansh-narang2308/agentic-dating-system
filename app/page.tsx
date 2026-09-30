@@ -5,7 +5,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
 import {
-
   Users,
   MessageSquareHeart,
   Award,
@@ -15,7 +14,7 @@ import {
   CheckCircle2,
   Bot,
 } from "lucide-react";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Navbar } from "@/components/navbar";
 
@@ -27,12 +26,12 @@ export default function HomePage() {
 
   const presets = [
     {
-      label: "Preset: Sam Altman",
+      label: "Sam Altman",
       li: "https://www.linkedin.com/in/samaltman",
       ig: "https://www.instagram.com/sama/",
     },
     {
-      label: "Preset: Mark Zuckerberg",
+      label: "Mark Zuckerberg",
       li: "https://www.linkedin.com/in/mark-zuckerberg-618b6163",
       ig: "https://www.instagram.com/zuck/",
     },
@@ -41,11 +40,12 @@ export default function HomePage() {
   const handleApplyPreset = (li: string, ig: string) => {
     setLinkedinUrl(li);
     setInstagramUrl(ig);
-    toast.success("Preset applied! Ready to spawn.");
+    toast.success("Preset applied.");
   };
 
   const handleIngest = async (e: React.FormEvent) => {
     e.preventDefault();
+
     if (!linkedinUrl || !instagramUrl) {
       toast.error("Please enter both LinkedIn and Instagram URLs.");
       return;
@@ -76,220 +76,220 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col justify-between selection:bg-primary/20 selection:text-primary">
+    <main className="min-h-screen overflow-hidden bg-[#0D1B23] text-white">
       <Navbar />
-      {/* Hero Container */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-16 sm:pt-24 pb-16 w-full">
-        {/* Minimal Pill */}
 
-        {/* Hero Headline */}
-        <div className="text-center space-y-4 mb-10">
-          <h1 className="text-4xl sm:text-6xl font-sans font-bold tracking-tight text-foreground leading-[1.1]">
-            Where AI Agents <br />
-            <span className="text-primary">Date on Your Behalf</span>
-          </h1>
-          <p className="text-sm sm:text-base text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            Representing real people using only their public LinkedIn &
-            Instagram. Agents read their person, go on speed dates, and rank who
-            fits best.
-          </p>
+      <section className="relative">
+        <div className="pointer-events-none absolute inset-0">
+          <div className="absolute left-1/2 top-0 h-[520px] w-[900px] -translate-x-1/2 bg-[radial-gradient(circle,rgba(255,105,180,0.10),transparent_65%)]" />
+          <div className="absolute inset-0 opacity-[0.035] bg-[linear-gradient(rgba(255,255,255,1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,1)_1px,transparent_1px)] [background-size:48px_48px]" />
+        </div>
 
-          {/* Clean Action Buttons */}
-          <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
+        <div className="relative mx-auto max-w-6xl px-6 pb-24 pt-24 sm:pt-32">
+          <div className="mx-auto max-w-4xl text-center">
+         
+
+            <h1 className="text-balance font-sans text-5xl font-bold leading-[0.98] tracking-[-0.04em] text-[#F8DDEB] sm:text-7xl lg:text-8xl">
+              Let your AI
+              <br />
+              <span className="text-[#FF69B4]">date for you.</span>
+            </h1>
+
+            <p className="mx-auto mt-7 max-w-2xl text-base leading-7 text-[#9DAAB1] sm:text-lg">
+              DateMe creates an AI agent from your public profile, puts it into
+              real conversations, and finds the people you actually match with.
+            </p>
+
+            <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
+              <Link
+                href="/profiles"
+                className="inline-flex h-11 items-center gap-2 rounded-full bg-[#FF69B4] px-5 text-sm font-bold text-[#0D1B23] shadow-[0_3px_0_#9D286B] transition-all hover:bg-[#FF85C1] active:translate-y-[2px] active:shadow-none"
+              >
+                Explore profiles
+              </Link>
+
+              <Link
+                href="/dating"
+                className="inline-flex h-11 items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-5 text-sm font-medium text-[#D5DDE1] transition-colors hover:border-[#FF69B4]/30 hover:bg-[#FF69B4]/5 hover:text-white"
+              >
+                Enter dating arena
+              </Link>
+            </div>
+          </div>
+
+          <div className="mx-auto mt-20 max-w-2xl">
+            <div className="mb-3 flex items-center justify-between px-1">
+              <div>
+                <p className="text-sm font-semibold text-white">
+                  Create your agent
+                </p>
+                <p className="mt-0.5 text-xs text-[#71808A]">
+                  Use public LinkedIn and Instagram profiles.
+                </p>
+              </div>
+
+              <span className="hidden text-[11px] text-[#64727A] sm:block">
+                Takes less than a minute
+              </span>
+            </div>
+
+            <div className="rounded-2xl border border-white/10 bg-[#101F27] p-1 shadow-2xl shadow-black/20">
+              <div className="rounded-xl border border-white/5 bg-[#0B181F] p-5 sm:p-6">
+                <div className="mb-5 flex flex-wrap items-center gap-2">
+                  <span className="mr-1 text-[11px] font-medium uppercase tracking-wider text-[#66757E]">
+                    Try a preset
+                  </span>
+
+                  {presets.map((preset) => (
+                    <button
+                      key={preset.label}
+                      type="button"
+                      onClick={() => handleApplyPreset(preset.li, preset.ig)}
+                      className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1.5 text-xs font-medium text-[#AAB5BA] transition-colors hover:border-[#FF69B4]/30 hover:bg-[#FF69B4]/5 hover:text-[#FFD1E6]"
+                    >
+                      {preset.label}
+                    </button>
+                  ))}
+                </div>
+
+                <form onSubmit={handleIngest} className="space-y-4">
+                  <div className="grid gap-4 sm:grid-cols-2">
+                    <div className="space-y-2">
+                      <label className="px-1 text-xs font-medium text-[#8A989F]">
+                        LinkedIn
+                      </label>
+                      <Input
+                        type="url"
+                        placeholder="linkedin.com/in/username"
+                        value={linkedinUrl}
+                        onChange={(e) => setLinkedinUrl(e.target.value)}
+                        required
+                        disabled={loading}
+                        className="h-11 rounded-lg border-white/10 bg-[#12242E] px-3 text-sm text-white placeholder:text-[#52616A] focus-visible:border-[#FF69B4]/50 focus-visible:ring-1 focus-visible:ring-[#FF69B4]/30"
+                      />
+                    </div>
+
+                    <div className="space-y-2">
+                      <label className="px-1 text-xs font-medium text-[#8A989F]">
+                        Instagram
+                      </label>
+                      <Input
+                        type="url"
+                        placeholder="instagram.com/username"
+                        value={instagramUrl}
+                        onChange={(e) => setInstagramUrl(e.target.value)}
+                        required
+                        disabled={loading}
+                        className="h-11 rounded-lg border-white/10 bg-[#12242E] px-3 text-sm text-white placeholder:text-[#52616A] focus-visible:border-[#FF69B4]/50 focus-visible:ring-1 focus-visible:ring-[#FF69B4]/30"
+                      />
+                    </div>
+                  </div>
+
+                  <Button
+                    type="submit"
+                    disabled={loading}
+                    className="h-11 w-full rounded-lg bg-[#FF69B4] text-sm font-bold text-[#0D1B23] shadow-[0_2px_0_#9D286B] transition-all hover:bg-[#FF85C1] active:translate-y-[1px] active:shadow-none"
+                  >
+                    {loading ? (
+                      <>
+                        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                        Building your agent...
+                      </>
+                    ) : (
+                      <>
+                        Spawn agent
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </>
+                    )}
+                  </Button>
+                </form>
+
+                {successPersonId && (
+                  <div className="mt-4 flex flex-col gap-3 rounded-lg border border-emerald-400/20 bg-emerald-400/5 p-4 sm:flex-row sm:items-center sm:justify-between">
+                    <div className="flex items-center gap-2">
+                      <CheckCircle2 className="h-4 w-4 text-emerald-400" />
+                      <span className="text-sm font-medium text-emerald-300">
+                        Agent is active in the dating pool.
+                      </span>
+                    </div>
+
+                    <div className="flex gap-2">
+                      <Link
+                        href={`/profiles/${successPersonId}`}
+                        className="rounded-md border border-white/10 px-3 py-1.5 text-xs font-medium text-white hover:bg-white/5"
+                      >
+                        View profile
+                      </Link>
+
+                      <Link
+                        href={`/rankings/${successPersonId}`}
+                        className="rounded-md border border-white/10 px-3 py-1.5 text-xs font-medium text-white hover:bg-white/5"
+                      >
+                        View ranking
+                      </Link>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+
+          <div className="mx-auto mt-20 max-w-4xl border-y border-white/5">
+            <div className="grid divide-y divide-white/5 sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+              <div className="px-6 py-7 text-center sm:text-left">
+                <Globe className="mx-auto mb-4 h-4 w-4 text-[#FF69B4] sm:mx-0" />
+                <p className="text-sm font-semibold text-white">
+                  Public data only
+                </p>
+                <p className="mt-1.5 text-xs leading-5 text-[#71808A]">
+                  Grounded in the LinkedIn and Instagram profiles you provide.
+                </p>
+              </div>
+
+              <div className="px-6 py-7 text-center sm:text-left">
+                <Bot className="mx-auto mb-4 h-4 w-4 text-[#FF69B4] sm:mx-0" />
+                <p className="text-sm font-semibold text-white">
+                  Agents do the talking
+                </p>
+                <p className="mt-1.5 text-xs leading-5 text-[#71808A]">
+                  Agents explore chemistry, lifestyle and compatibility.
+                </p>
+              </div>
+
+              <div className="px-6 py-7 text-center sm:text-left">
+                <Award className="mx-auto mb-4 h-4 w-4 text-[#FF69B4] sm:mx-0" />
+                <p className="text-sm font-semibold text-white">
+                  Compatibility rankings
+                </p>
+                <p className="mt-1.5 text-xs leading-5 text-[#71808A]">
+                  See who each agent connects with across the dating pool.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 flex items-center justify-center gap-6 text-xs text-[#5F6D75]">
             <Link
               href="/profiles"
-              className={buttonVariants({
-                size: "lg",
-                className:
-                  "rounded-2xl px-6 h-12 text-sm font-semibold shadow-md bg-primary text-primary-foreground hover:bg-primary/90",
-              })}
+              className="transition-colors hover:text-[#FF69B4]"
             >
-              <Users className="h-4 w-4 mr-2" />
-              Explore 25 Profiles
+              Profiles
             </Link>
-
             <Link
               href="/dating"
-              className={buttonVariants({
-                variant: "outline",
-                size: "lg",
-                className:
-                  "rounded-2xl px-6 h-12 text-sm font-semibold border-border/80 hover:bg-card",
-              })}
+              className="transition-colors hover:text-[#FF69B4]"
             >
-              <MessageSquareHeart className="h-4 w-4 mr-2 text-primary" />
-              Watch Dating Arena
+              Dating Arena
             </Link>
-
             <Link
               href="/rankings"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "lg",
-                className:
-                  "rounded-2xl px-5 h-12 text-sm font-medium text-muted-foreground hover:text-foreground",
-              })}
+              className="transition-colors hover:text-[#FF69B4]"
             >
-              <Award className="h-4 w-4 mr-2 text-yellow-500" />
               Rankings
             </Link>
           </div>
         </div>
-
-        {/* Clean Interactive Ingestion Card */}
-        <div className="rounded-3xl border border-border/60 bg-card/70 p-6 sm:p-8 backdrop-blur-xl shadow-xl max-w-2xl mx-auto space-y-6">
-          <div className="text-center space-y-1">
-            <h2 className="text-xl sm:text-2xl font-sans font-bold text-foreground">
-              Try It With Your Own Links
-            </h2>
-            <p className="text-xs text-muted-foreground">
-              Paste your public LinkedIn & Instagram to enter your agent into
-              the dating pool.
-            </p>
-          </div>
-
-          {/* Preset Buttons */}
-          <div className="flex flex-wrap items-center justify-center gap-2">
-            <span className="text-[11px] text-muted-foreground">
-              Quick test:
-            </span>
-            {presets.map((preset) => (
-              <button
-                key={preset.label}
-                type="button"
-                onClick={() => handleApplyPreset(preset.li, preset.ig)}
-                className="rounded-full border border-border/80 bg-background/80 px-3 py-1 text-[11px] font-medium text-muted-foreground hover:text-foreground hover:border-primary/50 transition-colors"
-              >
-                {preset.label}
-              </button>
-            ))}
-          </div>
-
-          {/* Form */}
-          <form onSubmit={handleIngest} className="space-y-4">
-            <div className="space-y-3">
-              <div className="space-y-1 text-left">
-                <label className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider pl-1">
-                  Public LinkedIn Profile
-                </label>
-                <Input
-                  type="url"
-                  placeholder="https://www.linkedin.com/in/username"
-                  value={linkedinUrl}
-                  onChange={(e) => setLinkedinUrl(e.target.value)}
-                  required
-                  disabled={loading}
-                  className="rounded-2xl h-11 bg-background/90 text-xs px-4 border-border/70 focus-visible:ring-primary"
-                />
-              </div>
-
-              <div className="space-y-1 text-left">
-                <label className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider pl-1">
-                  Public Instagram Profile
-                </label>
-                <Input
-                  type="url"
-                  placeholder="https://www.instagram.com/username/"
-                  value={instagramUrl}
-                  onChange={(e) => setInstagramUrl(e.target.value)}
-                  required
-                  disabled={loading}
-                  className="rounded-2xl h-11 bg-background/90 text-xs px-4 border-border/70 focus-visible:ring-primary"
-                />
-              </div>
-            </div>
-
-            <Button
-              type="submit"
-              disabled={loading}
-              className="w-full h-12 rounded-2xl font-semibold text-sm shadow-md bg-primary text-primary-foreground hover:bg-primary/90 transition-all cursor-pointer"
-            >
-              {loading ? (
-                <>
-                  <Loader2 className="h-4 w-4 mr-2 animate-spin" />
-                  Scraping & Synthesizing Agent...
-                </>
-              ) : (
-                <>Spawn Agent & Begin Dating</>
-              )}
-            </Button>
-          </form>
-
-          {/* Success Link */}
-          {successPersonId && (
-            <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/10 p-4 text-center space-y-2">
-              <div className="flex items-center justify-center gap-1.5 text-emerald-400 text-xs font-semibold">
-                <CheckCircle2 className="h-4 w-4" />
-                Agent Active in Pool!
-              </div>
-              <div className="flex items-center justify-center gap-2 pt-1">
-                <Link
-                  href={`/profiles/${successPersonId}`}
-                  className={buttonVariants({
-                    size: "sm",
-                    className: "rounded-xl text-xs",
-                  })}
-                >
-                  View Profile
-                  <ArrowRight className="h-3 w-3 ml-1" />
-                </Link>
-                <Link
-                  href={`/rankings/${successPersonId}`}
-                  className={buttonVariants({
-                    variant: "outline",
-                    size: "sm",
-                    className: "rounded-xl text-xs",
-                  })}
-                >
-                  View Rankings
-                </Link>
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* 3 Simple Rounded Feature Highlights */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-12 max-w-3xl mx-auto">
-          <div className="rounded-2xl border border-border/50 bg-card/40 p-5 space-y-2 text-center sm:text-left">
-            <div className="h-8 w-8 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center mx-auto sm:mx-0">
-              <Globe className="h-4 w-4" />
-            </div>
-            <h3 className="font-sans font-bold text-sm text-foreground">
-              1. Two Sources Only
-            </h3>
-            <p className="text-xs text-muted-foreground leading-relaxed">
-              Grounded exclusively in verified public LinkedIn and Instagram
-              data. Zero outside hallucinations.
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-border/50 bg-card/40 p-5 space-y-2 text-center sm:text-left">
-            <div className="h-8 w-8 rounded-xl bg-primary/10 text-primary flex items-center justify-center mx-auto sm:mx-0">
-              <Bot className="h-4 w-4" />
-            </div>
-            <h3 className="font-sans font-bold text-sm text-foreground">
-              2. Agents Date
-            </h3>
-            <p className="text-xs text-muted-foreground leading-relaxed">
-              Each agent converses, flirts, probes for lifestyle alignment, and
-              checks dealbreakers in real-time dates.
-            </p>
-          </div>
-
-          <div className="rounded-2xl border border-border/50 bg-card/40 p-5 space-y-2 text-center sm:text-left">
-            <div className="h-8 w-8 rounded-xl bg-yellow-500/10 text-yellow-400 flex items-center justify-center mx-auto sm:mx-0">
-              <Award className="h-4 w-4" />
-            </div>
-            <h3 className="font-sans font-bold text-sm text-foreground">
-              3. Mutual Rankings
-            </h3>
-            <p className="text-xs text-muted-foreground leading-relaxed">
-              Every person gets a ranked list (#1 to #24) calculating who fits
-              them best based on chemistry and values.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }

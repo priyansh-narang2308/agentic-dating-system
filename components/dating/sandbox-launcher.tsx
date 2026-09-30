@@ -22,6 +22,13 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import {
+  Select,
+  SelectTrigger,
+  SelectValue,
+  SelectContent,
+  SelectItem,
+} from "@/components/motion/select";
 
 interface SandboxLauncherProps {
   profiles: PersonProfile[];
@@ -181,25 +188,35 @@ export function SandboxLauncher({
                 </div>
               )}
               <div className="flex-1 min-w-0">
-                <select
+                <Select
                   value={personAId}
-                  onChange={(e) => {
-                    setPersonAId(e.target.value);
+                  onValueChange={(val) => {
+                    setPersonAId(val);
                     setError(null);
                   }}
                   disabled={loading}
-                  className="w-full text-sm font-medium rounded-xl border border-input bg-background px-3 py-2 text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/40 truncate"
                 >
-                  {profiles.map((p) => (
-                    <option
-                      key={p.id}
-                      value={p.id}
-                      disabled={p.id === personBId}
-                    >
-                      {p.name} ({p.profession})
-                    </option>
-                  ))}
-                </select>
+                  <SelectTrigger className="w-full h-10 rounded-xl bg-background border-border/80 text-xs font-medium">
+                    <SelectValue placeholder="Choose Agent A (Host)" />
+                  </SelectTrigger>
+                  <SelectContent maxHeight={280}>
+                    {profiles.map((p) => (
+                      <SelectItem
+                        key={p.id}
+                        value={p.id}
+                        disabled={p.id === personBId}
+                        label={`${p.name} (${p.profession})`}
+                      >
+                        <div className="flex items-center gap-2 truncate">
+                          <span className="font-semibold text-foreground">{p.name}</span>
+                          <span className="text-[11px] text-muted-foreground truncate">
+                            ({p.profession})
+                          </span>
+                        </div>
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
                 {personA && (
                   <p className="text-[11px] text-muted-foreground truncate mt-1">
                     Needs: {personA.analysis.needs.emotional[0]} • Dealbreaker:{" "}
@@ -246,25 +263,35 @@ export function SandboxLauncher({
                 </div>
               )}
               <div className="flex-1 min-w-0">
-                <select
+                <Select
                   value={personBId}
-                  onChange={(e) => {
-                    setPersonBId(e.target.value);
+                  onValueChange={(val) => {
+                    setPersonBId(val);
                     setError(null);
                   }}
                   disabled={loading}
-                  className="w-full text-sm font-medium rounded-xl border border-input bg-background px-3 py-2 text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-primary/40 truncate"
                 >
-                  {profiles.map((p) => (
-                    <option
-                      key={p.id}
-                      value={p.id}
-                      disabled={p.id === personAId}
-                    >
-                      {p.name} ({p.profession})
-                    </option>
-                  ))}
-                </select>
+                  <SelectTrigger className="w-full h-10 rounded-xl bg-background border-border/80 text-xs font-medium">
+                    <SelectValue placeholder="Choose Agent B (Guest)" />
+                  </SelectTrigger>
+                  <SelectContent maxHeight={280}>
+                    {profiles.map((p) => (
+                      <SelectItem
+                        key={p.id}
+                        value={p.id}
+                        disabled={p.id === personAId}
+                        label={`${p.name} (${p.profession})`}
+                      >
+                        <div className="flex items-center gap-2 truncate">
+                          <span className="font-semibold text-foreground">{p.name}</span>
+                          <span className="text-[11px] text-muted-foreground truncate">
+                            ({p.profession})
+                          </span>
+                        </div>
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
                 {personB && (
                   <p className="text-[11px] text-muted-foreground truncate mt-1">
                     Needs: {personB.analysis.needs.emotional[0]} • Dealbreaker:{" "}
@@ -302,18 +329,22 @@ export function SandboxLauncher({
               className="w-full text-sm rounded-xl border border-input bg-background px-3 py-2 text-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
             />
           ) : (
-            <select
+            <Select
               value={venue}
-              onChange={(e) => setVenue(e.target.value)}
+              onValueChange={(val) => setVenue(val)}
               disabled={loading}
-              className="w-full text-sm rounded-xl border border-input bg-background px-3 py-2 text-foreground focus:outline-none focus:ring-2 focus:ring-primary/40"
             >
-              {VENUE_PRESETS.map((v) => (
-                <option key={v} value={v}>
-                  {v}
-                </option>
-              ))}
-            </select>
+              <SelectTrigger className="w-full h-10 rounded-xl bg-background border-border/80 text-xs font-medium">
+                <SelectValue placeholder="Select Venue & Atmosphere" />
+              </SelectTrigger>
+              <SelectContent maxHeight={240}>
+                {VENUE_PRESETS.map((v) => (
+                  <SelectItem key={v} value={v}>
+                    {v}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
           )}
         </div>
 
