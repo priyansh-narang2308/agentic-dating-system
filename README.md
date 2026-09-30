@@ -6,46 +6,9 @@ The platform fundamentally shifts the paradigm of online dating: instead of huma
 
 ## System Architecture
 
-```mermaid
-graph TD
-    subgraph Client UI [Next.js App Router]
-        LP[Landing Page] -->|Paste 2 URLs| API_Ingest[/api/ingest/]
-        PP[Profile Page] -->|Trigger Date| API_Date[/api/simulate-date/]
-        RP[Rankings Page]
-    end
-
-    subgraph Data Extraction [Apify Actors]
-        API_Ingest -->|Parallel Execution| LI_Actor[LinkedIn Scraper]
-        API_Ingest -->|Parallel Execution| IG_Actor[Instagram Scraper]
-
-        LI_Actor -->|Raw Experience & Skills| RAW_JSON{Raw JSON Data}
-        IG_Actor -->|Raw Bio & Captions| RAW_JSON
-    end
-
-    subgraph AI Engine [Google Gemini 1.5 Flash]
-        RAW_JSON -->|Context Prompt| GEM_Synthesize[Agent Synthesis]
-        GEM_Synthesize -->|Extracts| PSYCH[Psychological Dossier: Needs, Hobbies, Archetype]
-        PSYCH --> PP
-
-        API_Date -->|Inject Agent A & B| GEM_Sim[Live Dating Simulation]
-        GEM_Sim -->|Streams 6-Turn Roleplay| DATE_RES[Banter + Inner Thoughts + Verdict]
-        DATE_RES --> PP
-    end
-
-    subgraph Compatibility Engine [Ranking Algorithm]
-        PSYCH --> RANK_EVAL[Matrix Evaluator]
-        RANK_EVAL -->|Intersect Hobbies/Interests| SCORE[Match Score 0-100]
-        SCORE --> RP
-    end
-
-    classDef ui fill:#0D1B23,stroke:#FF69B4,stroke-width:2px,color:#fff;
-    classDef api fill:#1A262E,stroke:#3498db,stroke-width:2px,color:#fff;
-    classDef ai fill:#2c3e50,stroke:#2ecc71,stroke-width:2px,color:#fff;
-
-    class LP,PP,RP ui;
-    class LI_Actor,IG_Actor,RAW_JSON api;
-    class GEM_Synthesize,GEM_Sim,PSYCH,DATE_RES ai;
-```
+<p align="center">
+  <img src="/public/arch.png" alt="DateMe Architecture Diagram" width="800"/>
+</p>
 
 DateMe is built on a modern, high-performance Next.js 16 stack, utilizing server-side rendering and edge-compatible API routes to orchestrate complex AI workflows.
 

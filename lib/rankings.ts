@@ -1,16 +1,25 @@
+import fs from "fs";
+import path from "path";
 import rankingsData from "../data/rankings.json";
 import { PersonRanking } from "../types";
 
-const cachedRankings: PersonRanking[] = rankingsData as PersonRanking[];
+let cachedRankings: PersonRanking[] = rankingsData as PersonRanking[];
 
 export function getAllRankings(): PersonRanking[] {
-  return cachedRankings;
+  try {
+    const filePath = path.join(process.cwd(), "data", "rankings.json");
+    const data = fs.readFileSync(filePath, "utf8");
+    return JSON.parse(data) as PersonRanking[];
+  } catch (err) {
+    return cachedRankings;
+  }
 }
 
 export function getRankingsForPerson(
   personId: string,
 ): PersonRanking | undefined {
-  return cachedRankings.find((r) => r.personId === personId);
+  const rankings = getAllRankings();
+  return rankings.find((r) => r.personId === personId);
 }
 
 export function savePersonRanking(ranking: PersonRanking): void {
@@ -21,5 +30,12 @@ export function savePersonRanking(ranking: PersonRanking): void {
     cachedRankings[existingIdx] = ranking;
   } else {
     cachedRankings.unshift(ranking);
+  }
+  
+  try {
+    const filePath = path.join(process.cwd(), "data", "rankings.json");
+    fs.writeFileSync(filePath, JSON.stringify(cachedRankings, null, 2), "utf8");
+  } catch (err) {
+    console.error("Failed to save ranking to disk:", err);
   }
 }
