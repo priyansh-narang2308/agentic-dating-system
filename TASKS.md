@@ -89,10 +89,10 @@
 
 ## Phase 6: Testing, Quality Assurance & Edge-Case Hardening (Tasks 20 - 21)
 
-- [ ] **Task 20: Smoke Test & API Route Error Handling**
+- [x] **Task 20: Smoke Test & API Route Error Handling**
   - Test `/api/scrape`, `/api/analyze`, `/api/simulate-date`, `/api/rankings`.
   - Ensure zero crashes when invalid URLs, private profiles, or rate limits are encountered.
-- [ ] **Task 21: Full Production Build & Typecheck**
+- [x] **Task 21: Full Production Build & Typecheck**
   - Run `bun run build` and ensure zero TypeScript errors or Next.js build warnings.
 
 ---

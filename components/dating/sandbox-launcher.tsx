@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { PersonProfile } from "@/types";
 import {
-  Flame,
   ArrowRight,
   Loader2,
   MapPin,

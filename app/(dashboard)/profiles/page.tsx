@@ -123,17 +123,17 @@ export default function ProfilesPage() {
       </div>
 
       {/* Profiles Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 min-w-0">
         {filteredProfiles.map((person) => (
           <Card
             key={person.id}
-            className="glass-panel glass-panel-hover flex flex-col justify-between border-border/50 overflow-hidden"
+            className="glass-panel glass-panel-hover flex flex-col justify-between border-border/50 overflow-hidden min-w-0"
           >
-            <div>
+            <div className="min-w-0">
               {/* Header with Avatar & Base Info */}
-              <CardHeader className="pb-3 space-y-3">
-                <div className="flex items-start justify-between gap-3">
-                  <div className="relative">
+              <CardHeader className="pb-3 space-y-3 min-w-0">
+                <div className="flex items-start justify-between gap-3 flex-wrap">
+                  <div className="relative shrink-0">
                     <img
                       src={person.avatarUrl}
                       alt={person.name}

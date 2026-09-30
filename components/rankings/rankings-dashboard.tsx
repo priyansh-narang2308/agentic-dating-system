@@ -104,7 +104,7 @@ export function RankingsDashboard({
             return (
               <Card
                 key={ranking.personId}
-                className="group rounded-3xl border border-border/60 hover:border-primary/40 transition-all duration-300 hover:shadow-md bg-card flex flex-col justify-between overflow-hidden"
+                className="group rounded-3xl border border-border/60 hover:border-primary/40 transition-all duration-300 hover:shadow-md bg-card flex flex-col justify-between overflow-hidden min-w-0"
               >
                 <CardContent className="p-5 space-y-4">
                   {/* Candidate Header */}
