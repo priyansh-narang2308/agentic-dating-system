@@ -44,7 +44,7 @@
 - [x] **Task 9: Hero Landing & "Live Onboarding" Ingestion Form**
   - Interactive hero banner with live statistics (25 Agents, 300+ Dates Simulated, AI-Grounded Compatibility).
   - Quick-input form for judges to paste any LinkedIn + Instagram URL to spawn their own agent in real time.
-- [ ] **Task 10: Real-time Ingestion Stepper & Scraping Visualizer**
+- [x] **Task 10: Real-time Ingestion Stepper & Scraping Visualizer**
   - Visual terminal / animated stepper showing: "Scraping Instagram..." → "Parsing LinkedIn Experience..." → "Gemini Synthesizing Needs & Hobbies..." → "Spawning Agent".
 - [ ] **Task 11: Profiles Directory & Filtering Grid (`/profiles`)**
   - Responsive card grid of all 25 agents with avatar, tags, profession, compatibility preview, and direct links to LinkedIn & Instagram.
