@@ -3,6 +3,8 @@ import { getDateById, getDateByPair } from "@/lib/dates";
 import { getProfileById } from "@/lib/profiles";
 import { DatePlayer } from "@/components/dating/date-player";
 
+export const dynamic = "force-dynamic";
+
 export default async function SimulatedDateDetailPage({
   params,
 }: {

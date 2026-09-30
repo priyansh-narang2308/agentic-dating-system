@@ -28,6 +28,8 @@ import {
 import { buttonVariants } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
+export const dynamic = "force-dynamic";
+
 export default async function ProfileDetailPage({
   params,
 }: {

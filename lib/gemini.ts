@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { GoogleGenAI } from "@google/genai";
+
 import { RawScrapedData } from "./apify";
 import {
   DateDialogue,
@@ -11,17 +11,40 @@ import {
   PersonRanking,
 } from "../types";
 
-let geminiClientInstance: GoogleGenAI | null = null;
-
-export function getGeminiClient(): GoogleGenAI {
-  const apiKey = process.env.GEMINI_API_KEY;
+async function callOpenRouter(
+  prompt: string,
+  temperature: number = 0.3,
+): Promise<string> {
+  const apiKey = process.env.OPENROUTER_API_KEY;
   if (!apiKey) {
-    throw new Error("GEMINI_API_KEY is missing from environment variables.");
+    throw new Error(
+      "OPENROUTER_API_KEY is missing from environment variables.",
+    );
   }
-  if (!geminiClientInstance) {
-    geminiClientInstance = new GoogleGenAI({ apiKey });
+
+  const response = await fetch(
+    "https://openrouter.ai/api/v1/chat/completions",
+    {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model: "stealth/space-bunny-alpha",
+        messages: [{ role: "user", content: prompt }],
+        temperature,
+      }),
+    },
+  );
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`OpenRouter error: ${response.status} - ${errorText}`);
   }
-  return geminiClientInstance;
+
+  const data = await response.json();
+  return data.choices[0].message.content;
 }
 
 /**
@@ -57,8 +80,6 @@ export async function synthesizePersonAnalysis(
   linkedinUrl: string,
   instagramUrl: string,
 ): Promise<PersonProfile> {
-  const ai = getGeminiClient();
-
   const prompt = `
 You are an expert psychometric profiler and autonomous agent creator for an elite agentic dating network.
 A candidate has submitted their two official public profiles:
@@ -133,15 +154,9 @@ Return a STRICT JSON object with this exact shape:
 `;
 
   try {
-    const response = await ai.models.generateContent({
-      model: "gemini-1.5-flash",
-      contents: prompt,
-      config: {
-        temperature: 0.3,
-      },
-    });
+    const responseText = await callOpenRouter(prompt, 0.3);
 
-    const parsed = cleanAndParseJson<any>(response.text || "{}", {});
+    const parsed = cleanAndParseJson<any>(responseText || "{}", {});
 
     const fallbackName =
       scraped.linkedin.name || scraped.instagram.fullName || "Candidate";
@@ -285,8 +300,6 @@ export async function simulateAgentDate(
   personB: PersonProfile,
   venue: string = "Atmospheric Skylit Espresso Bar in SOMA",
 ): Promise<DateDialogue> {
-  const ai = getGeminiClient();
-
   const prompt = `
 You are the master director of an Autonomous Agent Dating Simulation.
 Two AI agents are going on a real speed date, each representing their human client.
@@ -390,15 +403,9 @@ Return STRICT JSON format:
   const dateId = `date-${personA.id}-${personB.id}-${Date.now()}`;
 
   try {
-    const response = await ai.models.generateContent({
-      model: "gemini-1.5-flash",
-      contents: prompt,
-      config: {
-        temperature: 0.7,
-      },
-    });
+    const responseText = await callOpenRouter(prompt, 0.7);
 
-    const parsed = cleanAndParseJson<any>(response.text || "{}", {});
+    const parsed = cleanAndParseJson<any>(responseText || "{}", {});
 
     const turns: DateTurn[] = (parsed.turns || []).map(
       (t: any, index: number) => {

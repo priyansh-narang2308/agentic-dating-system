@@ -147,7 +147,7 @@ export async function scrapeSocialProfiles(
       const items = await runActorWithTimeout(
         actorId,
         {
-          usernames: [igUsername],
+          directUrls: [instagramUrl],
           resultsLimit: 12,
         },
         30,

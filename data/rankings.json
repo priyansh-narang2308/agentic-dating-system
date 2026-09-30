@@ -1,5 +1,1625 @@
 [
   {
+    "personId": "priyanshnarang23",
+    "personName": "Priyansh Narang230805",
+    "personAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+    "updatedAt": "2026-09-30T14:50:23.361Z",
+    "matches": [
+      {
+        "targetPersonId": "pieter_levels",
+        "targetPersonName": "Pieter Levels",
+        "targetAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Solo Founder & Digital Nomad",
+        "targetCity": "Amsterdam / Remote",
+        "targetArchetype": "The Sovereign Nomad",
+        "rank": 1,
+        "compatibilityScore": 77,
+        "chemistryScore": 76,
+        "lifestyleScore": 75,
+        "valuesScore": 79,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Sovereign Nomad"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "brian_chesky",
+        "targetPersonName": "Brian Chesky",
+        "targetAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Co-founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Master Host",
+        "rank": 2,
+        "compatibilityScore": 77,
+        "chemistryScore": 76,
+        "lifestyleScore": 75,
+        "valuesScore": 79,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Master Host"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "amjad_masad",
+        "targetPersonName": "Amjad Masad",
+        "targetAvatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Benevolent Builder",
+        "rank": 3,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Benevolent Builder"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "alexis_ohanian",
+        "targetPersonName": "Alexis Ohanian",
+        "targetAvatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Venture Capitalist & Entrepreneur",
+        "targetCity": "Jupiter, FL",
+        "targetArchetype": "The Empowering Champion",
+        "rank": 4,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Empowering Champion"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "austen_allred",
+        "targetPersonName": "Austen Allred",
+        "targetAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Scrappy Educator",
+        "rank": 5,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Scrappy Educator"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "andrej_karpathy",
+        "targetPersonName": "Andrej Karpathy",
+        "targetAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "AI Researcher & Educator",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Pure Scholar",
+        "rank": 6,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Pure Scholar"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "ali_abdaal",
+        "targetPersonName": "Ali Abdaal",
+        "targetAvatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Author, Creator & Speaker",
+        "targetCity": "London, UK",
+        "targetArchetype": "The Joyful Polymath",
+        "rank": 7,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Joyful Polymath"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "alex_lieberman",
+        "targetPersonName": "Alex Lieberman",
+        "targetAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Executive Chairman & Media Builder",
+        "targetCity": "New York, NY",
+        "targetArchetype": "The Vulnerable Builder",
+        "rank": 8,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Vulnerable Builder"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "guillermo_rauch",
+        "targetPersonName": "Guillermo Rauch",
+        "targetAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Visionary Architect",
+        "rank": 9,
+        "compatibilityScore": 75,
+        "chemistryScore": 75,
+        "lifestyleScore": 75,
+        "valuesScore": 77,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Visionary Architect"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "garry_tan",
+        "targetPersonName": "Garry Tan",
+        "targetAvatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "President & Venture Capitalist",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Catalyst Champion",
+        "rank": 10,
+        "compatibilityScore": 75,
+        "chemistryScore": 75,
+        "lifestyleScore": 75,
+        "valuesScore": 77,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Catalyst Champion"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "nikita_bier",
+        "targetPersonName": "Nikita Bier",
+        "targetAvatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Product Architect & Angel Investor",
+        "targetCity": "New York, NY",
+        "targetArchetype": "The Viral Provocateur",
+        "rank": 11,
+        "compatibilityScore": 75,
+        "chemistryScore": 75,
+        "lifestyleScore": 75,
+        "valuesScore": 77,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Viral Provocateur"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "grace_beverley",
+        "targetPersonName": "Grace Beverley",
+        "targetAvatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Fitness Entrepreneur",
+        "targetCity": "London, UK",
+        "targetArchetype": "The Ambitious Dynamo",
+        "rank": 12,
+        "compatibilityScore": 75,
+        "chemistryScore": 75,
+        "lifestyleScore": 75,
+        "valuesScore": 77,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Ambitious Dynamo"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "melanie_perkins",
+        "targetPersonName": "Melanie Perkins",
+        "targetAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "CEO & Tech Founder",
+        "targetCity": "Sydney, Australia",
+        "targetArchetype": "The Visionary Equalizer",
+        "rank": 13,
+        "compatibilityScore": 74,
+        "chemistryScore": 73,
+        "lifestyleScore": 71,
+        "valuesScore": 76,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Visionary Equalizer"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "tiffany_zhong",
+        "targetPersonName": "Tiffany Zhong",
+        "targetAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Angel Investor",
+        "targetCity": "Los Angeles, CA",
+        "targetArchetype": "The Cultural Tastemaker",
+        "rank": 14,
+        "compatibilityScore": 74,
+        "chemistryScore": 73,
+        "lifestyleScore": 71,
+        "valuesScore": 76,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Cultural Tastemaker"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "marques_brownlee",
+        "targetPersonName": "Marques Brownlee",
+        "targetAvatar": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Tech Creator & Producer",
+        "targetCity": "Kearny, NJ",
+        "targetArchetype": "The Master Craftsman",
+        "rank": 15,
+        "compatibilityScore": 74,
+        "chemistryScore": 73,
+        "lifestyleScore": 71,
+        "valuesScore": 76,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Master Craftsman"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "sara_blakely",
+        "targetPersonName": "Sara Blakely",
+        "targetAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Executive Chairwoman",
+        "targetCity": "Atlanta, GA",
+        "targetArchetype": "The Joyful Alchemist",
+        "rank": 16,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Joyful Alchemist"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "shantanu_narayen",
+        "targetPersonName": "Shantanu Narayen",
+        "targetAvatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Chairman & CEO",
+        "targetCity": "San Jose, CA",
+        "targetArchetype": "The Statesman Strategist",
+        "rank": 17,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Statesman Strategist"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "sahil_lavingia",
+        "targetPersonName": "Sahil Lavingia",
+        "targetAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder, Author & Painter",
+        "targetCity": "Provo, UT",
+        "targetArchetype": "The Artist Philosopher",
+        "rank": 18,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Artist Philosopher"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "stephanie_hurlburt",
+        "targetPersonName": "Stephanie Hurlburt",
+        "targetAvatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Graphics Engineer & Co-founder",
+        "targetCity": "Seattle, WA",
+        "targetArchetype": "The Nurturing Artisan",
+        "rank": 19,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Nurturing Artisan"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "shaan_puri",
+        "targetPersonName": "Shaan Puri",
+        "targetAvatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Media Entrepreneur & Investor",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Energetic Storyteller",
+        "rank": 20,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Energetic Storyteller"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "katrina_lake",
+        "targetPersonName": "Katrina Lake",
+        "targetAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Chairperson",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Pragmatic Pioneer",
+        "rank": 21,
+        "compatibilityScore": 72,
+        "chemistryScore": 72,
+        "lifestyleScore": 71,
+        "valuesScore": 74,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Pragmatic Pioneer"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "dan_abramov",
+        "targetPersonName": "Dan Abramov",
+        "targetAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Core UI Architect & Educator",
+        "targetCity": "London, UK",
+        "targetArchetype": "The Philosophical Craftsman",
+        "rank": 22,
+        "compatibilityScore": 72,
+        "chemistryScore": 72,
+        "lifestyleScore": 71,
+        "valuesScore": 74,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Philosophical Craftsman"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "justine_ezarik",
+        "targetPersonName": "Justine Ezarik",
+        "targetAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Digital Creator & Host",
+        "targetCity": "Los Angeles, CA",
+        "targetArchetype": "The Digital Trailblazer",
+        "rank": 23,
+        "compatibilityScore": 71,
+        "chemistryScore": 70,
+        "lifestyleScore": 71,
+        "valuesScore": 73,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Digital Trailblazer"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "jack_conte",
+        "targetPersonName": "Jack Conte",
+        "targetAvatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "CEO & Musician",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Wild Creator",
+        "rank": 24,
+        "compatibilityScore": 71,
+        "chemistryScore": 70,
+        "lifestyleScore": 71,
+        "valuesScore": 73,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Wild Creator"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      },
+      {
+        "targetPersonId": "cleo_abram",
+        "targetPersonName": "Cleo Abram",
+        "targetAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Tech Journalist & Filmmaker",
+        "targetCity": "New York, NY",
+        "targetArchetype": "The Tech Optimist",
+        "rank": 25,
+        "compatibilityScore": 71,
+        "chemistryScore": 70,
+        "lifestyleScore": 71,
+        "valuesScore": 73,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Tech Optimist"
+        ],
+        "potentialRisks": [
+          "Balancing No routine, availability, or lifestyle rhythm is provided."
+        ]
+      }
+    ]
+  },
+  {
+    "personId": "profile-1790779115597",
+    "personName": "Priyansh Narang230805",
+    "personAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+    "updatedAt": "2026-09-30T14:38:35.599Z",
+    "matches": [
+      {
+        "targetPersonId": "profile-1790779077379",
+        "targetPersonName": "Priyansh Narang230805",
+        "targetAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Innovator",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Creative Explorer",
+        "rank": 1,
+        "compatibilityScore": 98,
+        "chemistryScore": 97,
+        "lifestyleScore": 96,
+        "valuesScore": 98,
+        "synergies": [
+          "Shared passion for Reading",
+          "Mutual focus on Startups",
+          "Aligned archetype: The Creative Explorer"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "amjad_masad",
+        "targetPersonName": "Amjad Masad",
+        "targetAvatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Benevolent Builder",
+        "rank": 2,
+        "compatibilityScore": 97,
+        "chemistryScore": 98,
+        "lifestyleScore": 96,
+        "valuesScore": 98,
+        "synergies": [
+          "Shared passion for Reading",
+          "Mutual focus on Art",
+          "Aligned archetype: The Benevolent Builder"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "sahil_lavingia",
+        "targetPersonName": "Sahil Lavingia",
+        "targetAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder, Author & Painter",
+        "targetCity": "Provo, UT",
+        "targetArchetype": "The Artist Philosopher",
+        "rank": 3,
+        "compatibilityScore": 89,
+        "chemistryScore": 90,
+        "lifestyleScore": 87,
+        "valuesScore": 91,
+        "synergies": [
+          "Shared passion for Reading",
+          "Mutual focus on Art",
+          "Aligned archetype: The Artist Philosopher"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "austen_allred",
+        "targetPersonName": "Austen Allred",
+        "targetAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Scrappy Educator",
+        "rank": 4,
+        "compatibilityScore": 86,
+        "chemistryScore": 87,
+        "lifestyleScore": 85,
+        "valuesScore": 88,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Scrappy Educator"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "guillermo_rauch",
+        "targetPersonName": "Guillermo Rauch",
+        "targetAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Visionary Architect",
+        "rank": 5,
+        "compatibilityScore": 85,
+        "chemistryScore": 85,
+        "lifestyleScore": 85,
+        "valuesScore": 87,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Visionary Architect"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "garry_tan",
+        "targetPersonName": "Garry Tan",
+        "targetAvatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "President & Venture Capitalist",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Catalyst Champion",
+        "rank": 6,
+        "compatibilityScore": 84,
+        "chemistryScore": 84,
+        "lifestyleScore": 84,
+        "valuesScore": 86,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "Mutual focus on Art",
+          "Aligned archetype: The Catalyst Champion"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "ali_abdaal",
+        "targetPersonName": "Ali Abdaal",
+        "targetAvatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Author, Creator & Speaker",
+        "targetCity": "London, UK",
+        "targetArchetype": "The Joyful Polymath",
+        "rank": 7,
+        "compatibilityScore": 82,
+        "chemistryScore": 83,
+        "lifestyleScore": 81,
+        "valuesScore": 84,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Joyful Polymath"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "brian_chesky",
+        "targetPersonName": "Brian Chesky",
+        "targetAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Co-founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Master Host",
+        "rank": 8,
+        "compatibilityScore": 81,
+        "chemistryScore": 80,
+        "lifestyleScore": 79,
+        "valuesScore": 83,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Master Host"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "grace_beverley",
+        "targetPersonName": "Grace Beverley",
+        "targetAvatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Fitness Entrepreneur",
+        "targetCity": "London, UK",
+        "targetArchetype": "The Ambitious Dynamo",
+        "rank": 9,
+        "compatibilityScore": 81,
+        "chemistryScore": 81,
+        "lifestyleScore": 81,
+        "valuesScore": 83,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Ambitious Dynamo"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "andrej_karpathy",
+        "targetPersonName": "Andrej Karpathy",
+        "targetAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "AI Researcher & Educator",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Pure Scholar",
+        "rank": 10,
+        "compatibilityScore": 80,
+        "chemistryScore": 81,
+        "lifestyleScore": 79,
+        "valuesScore": 82,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Pure Scholar"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "pieter_levels",
+        "targetPersonName": "Pieter Levels",
+        "targetAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Solo Founder & Digital Nomad",
+        "targetCity": "Amsterdam / Remote",
+        "targetArchetype": "The Sovereign Nomad",
+        "rank": 11,
+        "compatibilityScore": 77,
+        "chemistryScore": 76,
+        "lifestyleScore": 75,
+        "valuesScore": 79,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Sovereign Nomad"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "shaan_puri",
+        "targetPersonName": "Shaan Puri",
+        "targetAvatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Media Entrepreneur & Investor",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Energetic Storyteller",
+        "rank": 12,
+        "compatibilityScore": 77,
+        "chemistryScore": 78,
+        "lifestyleScore": 75,
+        "valuesScore": 79,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Energetic Storyteller"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "cleo_abram",
+        "targetPersonName": "Cleo Abram",
+        "targetAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Tech Journalist & Filmmaker",
+        "targetCity": "New York, NY",
+        "targetArchetype": "The Tech Optimist",
+        "rank": 13,
+        "compatibilityScore": 77,
+        "chemistryScore": 76,
+        "lifestyleScore": 77,
+        "valuesScore": 79,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Tech Optimist"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "alexis_ohanian",
+        "targetPersonName": "Alexis Ohanian",
+        "targetAvatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Venture Capitalist & Entrepreneur",
+        "targetCity": "Jupiter, FL",
+        "targetArchetype": "The Empowering Champion",
+        "rank": 14,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Empowering Champion"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "katrina_lake",
+        "targetPersonName": "Katrina Lake",
+        "targetAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Chairperson",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Pragmatic Pioneer",
+        "rank": 15,
+        "compatibilityScore": 76,
+        "chemistryScore": 76,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Pragmatic Pioneer"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "alex_lieberman",
+        "targetPersonName": "Alex Lieberman",
+        "targetAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Executive Chairman & Media Builder",
+        "targetCity": "New York, NY",
+        "targetArchetype": "The Vulnerable Builder",
+        "rank": 16,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Vulnerable Builder"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "nikita_bier",
+        "targetPersonName": "Nikita Bier",
+        "targetAvatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Product Architect & Angel Investor",
+        "targetCity": "New York, NY",
+        "targetArchetype": "The Viral Provocateur",
+        "rank": 17,
+        "compatibilityScore": 75,
+        "chemistryScore": 75,
+        "lifestyleScore": 75,
+        "valuesScore": 77,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Viral Provocateur"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "jack_conte",
+        "targetPersonName": "Jack Conte",
+        "targetAvatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "CEO & Musician",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Wild Creator",
+        "rank": 18,
+        "compatibilityScore": 75,
+        "chemistryScore": 74,
+        "lifestyleScore": 75,
+        "valuesScore": 77,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Wild Creator"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "melanie_perkins",
+        "targetPersonName": "Melanie Perkins",
+        "targetAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "CEO & Tech Founder",
+        "targetCity": "Sydney, Australia",
+        "targetArchetype": "The Visionary Equalizer",
+        "rank": 19,
+        "compatibilityScore": 74,
+        "chemistryScore": 73,
+        "lifestyleScore": 71,
+        "valuesScore": 76,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Visionary Equalizer"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "tiffany_zhong",
+        "targetPersonName": "Tiffany Zhong",
+        "targetAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Angel Investor",
+        "targetCity": "Los Angeles, CA",
+        "targetArchetype": "The Cultural Tastemaker",
+        "rank": 20,
+        "compatibilityScore": 74,
+        "chemistryScore": 73,
+        "lifestyleScore": 71,
+        "valuesScore": 76,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Cultural Tastemaker"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "marques_brownlee",
+        "targetPersonName": "Marques Brownlee",
+        "targetAvatar": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Tech Creator & Producer",
+        "targetCity": "Kearny, NJ",
+        "targetArchetype": "The Master Craftsman",
+        "rank": 21,
+        "compatibilityScore": 74,
+        "chemistryScore": 73,
+        "lifestyleScore": 71,
+        "valuesScore": 76,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Master Craftsman"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "sara_blakely",
+        "targetPersonName": "Sara Blakely",
+        "targetAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Executive Chairwoman",
+        "targetCity": "Atlanta, GA",
+        "targetArchetype": "The Joyful Alchemist",
+        "rank": 22,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Joyful Alchemist"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "shantanu_narayen",
+        "targetPersonName": "Shantanu Narayen",
+        "targetAvatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Chairman & CEO",
+        "targetCity": "San Jose, CA",
+        "targetArchetype": "The Statesman Strategist",
+        "rank": 23,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Statesman Strategist"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "stephanie_hurlburt",
+        "targetPersonName": "Stephanie Hurlburt",
+        "targetAvatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Graphics Engineer & Co-founder",
+        "targetCity": "Seattle, WA",
+        "targetArchetype": "The Nurturing Artisan",
+        "rank": 24,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Nurturing Artisan"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "dan_abramov",
+        "targetPersonName": "Dan Abramov",
+        "targetAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Core UI Architect & Educator",
+        "targetCity": "London, UK",
+        "targetArchetype": "The Philosophical Craftsman",
+        "rank": 25,
+        "compatibilityScore": 72,
+        "chemistryScore": 72,
+        "lifestyleScore": 71,
+        "valuesScore": 74,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Philosophical Craftsman"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "justine_ezarik",
+        "targetPersonName": "Justine Ezarik",
+        "targetAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Digital Creator & Host",
+        "targetCity": "Los Angeles, CA",
+        "targetArchetype": "The Digital Trailblazer",
+        "rank": 26,
+        "compatibilityScore": 71,
+        "chemistryScore": 70,
+        "lifestyleScore": 71,
+        "valuesScore": 73,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Digital Trailblazer"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      }
+    ]
+  },
+  {
+    "personId": "profile-1790779077379",
+    "personName": "Priyansh Narang230805",
+    "personAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+    "updatedAt": "2026-09-30T14:37:57.382Z",
+    "matches": [
+      {
+        "targetPersonId": "amjad_masad",
+        "targetPersonName": "Amjad Masad",
+        "targetAvatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Benevolent Builder",
+        "rank": 1,
+        "compatibilityScore": 97,
+        "chemistryScore": 98,
+        "lifestyleScore": 96,
+        "valuesScore": 98,
+        "synergies": [
+          "Shared passion for Reading",
+          "Mutual focus on Art",
+          "Aligned archetype: The Benevolent Builder"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "sahil_lavingia",
+        "targetPersonName": "Sahil Lavingia",
+        "targetAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder, Author & Painter",
+        "targetCity": "Provo, UT",
+        "targetArchetype": "The Artist Philosopher",
+        "rank": 2,
+        "compatibilityScore": 89,
+        "chemistryScore": 90,
+        "lifestyleScore": 87,
+        "valuesScore": 91,
+        "synergies": [
+          "Shared passion for Reading",
+          "Mutual focus on Art",
+          "Aligned archetype: The Artist Philosopher"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "austen_allred",
+        "targetPersonName": "Austen Allred",
+        "targetAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Scrappy Educator",
+        "rank": 3,
+        "compatibilityScore": 86,
+        "chemistryScore": 87,
+        "lifestyleScore": 85,
+        "valuesScore": 88,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Scrappy Educator"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "guillermo_rauch",
+        "targetPersonName": "Guillermo Rauch",
+        "targetAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Visionary Architect",
+        "rank": 4,
+        "compatibilityScore": 85,
+        "chemistryScore": 85,
+        "lifestyleScore": 85,
+        "valuesScore": 87,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Visionary Architect"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "garry_tan",
+        "targetPersonName": "Garry Tan",
+        "targetAvatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "President & Venture Capitalist",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Catalyst Champion",
+        "rank": 5,
+        "compatibilityScore": 84,
+        "chemistryScore": 84,
+        "lifestyleScore": 84,
+        "valuesScore": 86,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "Mutual focus on Art",
+          "Aligned archetype: The Catalyst Champion"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "ali_abdaal",
+        "targetPersonName": "Ali Abdaal",
+        "targetAvatar": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Author, Creator & Speaker",
+        "targetCity": "London, UK",
+        "targetArchetype": "The Joyful Polymath",
+        "rank": 6,
+        "compatibilityScore": 82,
+        "chemistryScore": 83,
+        "lifestyleScore": 81,
+        "valuesScore": 84,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Joyful Polymath"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "brian_chesky",
+        "targetPersonName": "Brian Chesky",
+        "targetAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Co-founder & CEO",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Master Host",
+        "rank": 7,
+        "compatibilityScore": 81,
+        "chemistryScore": 80,
+        "lifestyleScore": 79,
+        "valuesScore": 83,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Master Host"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "grace_beverley",
+        "targetPersonName": "Grace Beverley",
+        "targetAvatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Fitness Entrepreneur",
+        "targetCity": "London, UK",
+        "targetArchetype": "The Ambitious Dynamo",
+        "rank": 8,
+        "compatibilityScore": 81,
+        "chemistryScore": 81,
+        "lifestyleScore": 81,
+        "valuesScore": 83,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Ambitious Dynamo"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "andrej_karpathy",
+        "targetPersonName": "Andrej Karpathy",
+        "targetAvatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "AI Researcher & Educator",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Pure Scholar",
+        "rank": 9,
+        "compatibilityScore": 80,
+        "chemistryScore": 81,
+        "lifestyleScore": 79,
+        "valuesScore": 82,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Pure Scholar"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "pieter_levels",
+        "targetPersonName": "Pieter Levels",
+        "targetAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Solo Founder & Digital Nomad",
+        "targetCity": "Amsterdam / Remote",
+        "targetArchetype": "The Sovereign Nomad",
+        "rank": 10,
+        "compatibilityScore": 77,
+        "chemistryScore": 76,
+        "lifestyleScore": 75,
+        "valuesScore": 79,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Sovereign Nomad"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "shaan_puri",
+        "targetPersonName": "Shaan Puri",
+        "targetAvatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Media Entrepreneur & Investor",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Energetic Storyteller",
+        "rank": 11,
+        "compatibilityScore": 77,
+        "chemistryScore": 78,
+        "lifestyleScore": 75,
+        "valuesScore": 79,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Energetic Storyteller"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "cleo_abram",
+        "targetPersonName": "Cleo Abram",
+        "targetAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Tech Journalist & Filmmaker",
+        "targetCity": "New York, NY",
+        "targetArchetype": "The Tech Optimist",
+        "rank": 12,
+        "compatibilityScore": 77,
+        "chemistryScore": 76,
+        "lifestyleScore": 77,
+        "valuesScore": 79,
+        "synergies": [
+          "Shared passion for Reading",
+          "High conversational resonance",
+          "Aligned archetype: The Tech Optimist"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "alexis_ohanian",
+        "targetPersonName": "Alexis Ohanian",
+        "targetAvatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Venture Capitalist & Entrepreneur",
+        "targetCity": "Jupiter, FL",
+        "targetArchetype": "The Empowering Champion",
+        "rank": 13,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Empowering Champion"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "katrina_lake",
+        "targetPersonName": "Katrina Lake",
+        "targetAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Chairperson",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Pragmatic Pioneer",
+        "rank": 14,
+        "compatibilityScore": 76,
+        "chemistryScore": 76,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Pragmatic Pioneer"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "alex_lieberman",
+        "targetPersonName": "Alex Lieberman",
+        "targetAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Executive Chairman & Media Builder",
+        "targetCity": "New York, NY",
+        "targetArchetype": "The Vulnerable Builder",
+        "rank": 15,
+        "compatibilityScore": 76,
+        "chemistryScore": 77,
+        "lifestyleScore": 75,
+        "valuesScore": 78,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Vulnerable Builder"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "nikita_bier",
+        "targetPersonName": "Nikita Bier",
+        "targetAvatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Product Architect & Angel Investor",
+        "targetCity": "New York, NY",
+        "targetArchetype": "The Viral Provocateur",
+        "rank": 16,
+        "compatibilityScore": 75,
+        "chemistryScore": 75,
+        "lifestyleScore": 75,
+        "valuesScore": 77,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Viral Provocateur"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "jack_conte",
+        "targetPersonName": "Jack Conte",
+        "targetAvatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "CEO & Musician",
+        "targetCity": "San Francisco, CA",
+        "targetArchetype": "The Wild Creator",
+        "rank": 17,
+        "compatibilityScore": 75,
+        "chemistryScore": 74,
+        "lifestyleScore": 75,
+        "valuesScore": 77,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Wild Creator"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "melanie_perkins",
+        "targetPersonName": "Melanie Perkins",
+        "targetAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "CEO & Tech Founder",
+        "targetCity": "Sydney, Australia",
+        "targetArchetype": "The Visionary Equalizer",
+        "rank": 18,
+        "compatibilityScore": 74,
+        "chemistryScore": 73,
+        "lifestyleScore": 71,
+        "valuesScore": 76,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Visionary Equalizer"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "tiffany_zhong",
+        "targetPersonName": "Tiffany Zhong",
+        "targetAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Angel Investor",
+        "targetCity": "Los Angeles, CA",
+        "targetArchetype": "The Cultural Tastemaker",
+        "rank": 19,
+        "compatibilityScore": 74,
+        "chemistryScore": 73,
+        "lifestyleScore": 71,
+        "valuesScore": 76,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Cultural Tastemaker"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "marques_brownlee",
+        "targetPersonName": "Marques Brownlee",
+        "targetAvatar": "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Tech Creator & Producer",
+        "targetCity": "Kearny, NJ",
+        "targetArchetype": "The Master Craftsman",
+        "rank": 20,
+        "compatibilityScore": 74,
+        "chemistryScore": 73,
+        "lifestyleScore": 71,
+        "valuesScore": 76,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Master Craftsman"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "sara_blakely",
+        "targetPersonName": "Sara Blakely",
+        "targetAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Founder & Executive Chairwoman",
+        "targetCity": "Atlanta, GA",
+        "targetArchetype": "The Joyful Alchemist",
+        "rank": 21,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Joyful Alchemist"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "shantanu_narayen",
+        "targetPersonName": "Shantanu Narayen",
+        "targetAvatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Chairman & CEO",
+        "targetCity": "San Jose, CA",
+        "targetArchetype": "The Statesman Strategist",
+        "rank": 22,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Statesman Strategist"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "stephanie_hurlburt",
+        "targetPersonName": "Stephanie Hurlburt",
+        "targetAvatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Graphics Engineer & Co-founder",
+        "targetCity": "Seattle, WA",
+        "targetArchetype": "The Nurturing Artisan",
+        "rank": 23,
+        "compatibilityScore": 73,
+        "chemistryScore": 74,
+        "lifestyleScore": 71,
+        "valuesScore": 75,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Nurturing Artisan"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "dan_abramov",
+        "targetPersonName": "Dan Abramov",
+        "targetAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Core UI Architect & Educator",
+        "targetCity": "London, UK",
+        "targetArchetype": "The Philosophical Craftsman",
+        "rank": 24,
+        "compatibilityScore": 72,
+        "chemistryScore": 72,
+        "lifestyleScore": 71,
+        "valuesScore": 74,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Philosophical Craftsman"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      },
+      {
+        "targetPersonId": "justine_ezarik",
+        "targetPersonName": "Justine Ezarik",
+        "targetAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=80",
+        "targetProfession": "Digital Creator & Host",
+        "targetCity": "Los Angeles, CA",
+        "targetArchetype": "The Digital Trailblazer",
+        "rank": 25,
+        "compatibilityScore": 71,
+        "chemistryScore": 70,
+        "lifestyleScore": 71,
+        "valuesScore": 73,
+        "synergies": [
+          "Complementary leisure rhythms",
+          "High conversational resonance",
+          "Aligned archetype: The Digital Trailblazer"
+        ],
+        "potentialRisks": [
+          "Balancing Work-life harmony"
+        ]
+      }
+    ]
+  },
+  {
     "personId": "guillermo_rauch",
     "personName": "Guillermo Rauch",
     "personAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80",
