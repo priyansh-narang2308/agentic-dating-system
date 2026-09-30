@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "../components/navbar";
 import { TooltipProvider } from "../components/ui/tooltip";
 import { Toaster } from "sonner";
 
@@ -25,7 +24,6 @@ export default function RootLayout({
     <html lang="en" className={`${inter.className} dark h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <TooltipProvider>
-          <Navbar />
           <main className="flex-1">
             {children}
             <Toaster richColors position="bottom-right" />

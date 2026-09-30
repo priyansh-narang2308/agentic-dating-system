@@ -48,7 +48,7 @@
   - Visual terminal / animated stepper showing: "Scraping Instagram..." → "Parsing LinkedIn Experience..." → "Gemini Synthesizing Needs & Hobbies..." → "Spawning Agent".
 - [x] **Task 11: Profiles Directory & Filtering Grid (`/profiles`)**
   - Responsive card grid of all 25 agents with avatar, tags, profession, compatibility preview, and direct links to LinkedIn & Instagram.
-- [ ] **Task 12: Rich Individual Profile Page (`/profiles/[id]`)**
+- [x] **Task 12: Rich Individual Profile Page (`/profiles/[id]`)**
   - Deep-dive view displaying:
     - Persona summary & archetype badge.
     - Tabbed breakdown: **Needs**, **Hobbies**, **Interests**, **Qualities & Quirks**.
@@ -59,17 +59,17 @@
 
 ## Phase 4: Agent Dating Simulator & Real-time Dialogue Arena (Tasks 13 - 16)
 
-- [ ] **Task 13: The Dating Arena (`/dating` & `/dating/[pairId]`)**
+- [x] **Task 13: The Dating Arena (`/dating` & `/dating/[pairId]`)**
   - Two-column split-view or chat-room layout showing Agent A vs Agent B with live avatar badges, status indicators, and background ambiance (e.g. "Rooftop Lounge", "Quiet Coffeehouse").
-- [ ] **Task 14: Interactive Playable Conversation Engine**
+- [x] **Task 14: Interactive Playable Conversation Engine**
   - Message-by-message playback with typing indicators, witty AI banter, flirtatious quips, debate over shared interests, and mutual vulnerability.
-- [ ] **Task 15: Post-Date Verdict & Chemistry Scorecard**
+- [x] **Task 15: Post-Date Verdict & Chemistry Scorecard**
   - Dynamic score reveal breakdown:
     - ⚡ Vibe & Chemistry (0-100)
     - 🧭 Lifestyle & Values Alignment (0-100)
     - 🎯 Long-term Potential (0-100)
     - Agent A's private diary thoughts vs Agent B's private diary thoughts.
-- [ ] **Task 16: Custom Pair Matchmaker / Sandbox Date Launcher**
+- [x] **Task 16: Custom Pair Matchmaker / Sandbox Date Launcher**
   - Dropdown selector to pick ANY two people from the 25 (or custom-added person) and trigger a brand-new live simulated date via Gemini.
 
 ---

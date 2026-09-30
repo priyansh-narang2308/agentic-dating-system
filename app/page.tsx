@@ -5,7 +5,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
 import {
-  Sparkles,
+
   Users,
   MessageSquareHeart,
   Award,
@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Badge } from "@/components/ui/badge";
+import { Navbar } from "@/components/navbar";
 
 export default function HomePage() {
   const [linkedinUrl, setLinkedinUrl] = useState("");
@@ -77,6 +77,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col justify-between selection:bg-primary/20 selection:text-primary">
+      <Navbar />
       {/* Hero Container */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-16 sm:pt-24 pb-16 w-full">
         {/* Minimal Pill */}

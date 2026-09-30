@@ -44,7 +44,7 @@ export function AppHeader() {
           })}
         >
           <Home className="h-3.5 w-3.5 mr-1.5" />
-          Landing Page
+Home
         </Link>
 
         <Link
