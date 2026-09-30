@@ -25,7 +25,7 @@
 - [x] **Task 5: Curate 25 Real People with Public LinkedIn + Public Instagram**
   - Select 25 real verified professionals, founders, creatives, and engineers with genuine public LinkedIn & Instagram profiles.
   - Structure `data/people.json` with verified links, public avatars, and professional backgrounds.
-- [ ] **Task 6: High-Fidelity Persona Dossiers & Grounded Evidence Generation**
+- [x] **Task 6: High-Fidelity Persona Dossiers & Grounded Evidence Generation**
   - Run the extraction pipeline to generate rich psychological profiles:
     - Core Needs (emotional, communication, lifestyle).
     - Hobbies (creative, physical, travel, downtime).
