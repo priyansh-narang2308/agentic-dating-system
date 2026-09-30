@@ -1,18 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { Plus, ShieldCheck, HeartHandshake } from "lucide-react";
-import {
-  Sidebar,
-  SidebarContent,
-  SidebarFooter,
-  SidebarGroup,
-  SidebarHeader,
-  SidebarMenu,
-  SidebarMenuItem,
-} from "@/components/ui/sidebar";
+import { Plus } from "lucide-react";
+import { Sidebar, SidebarContent, SidebarGroup } from "@/components/ui/sidebar";
 import { NavGroup } from "@/components/nav-group";
-import { footerNavLinks, navGroups } from "@/components/app-shared";
+import { navGroups } from "@/components/app-shared";
 import { buttonVariants } from "@/components/ui/button";
 
 export function AppSidebar() {

@@ -16,10 +16,16 @@ export function NavGroup({ label, items }: SidebarNavGroup) {
 
   return (
     <SidebarGroup>
-      {label && <SidebarGroupLabel className="text-[11px] font-semibold text-muted-foreground/80">{label}</SidebarGroupLabel>}
+      {label && (
+        <SidebarGroupLabel className="text-[11px] font-semibold text-muted-foreground/80">
+          {label}
+        </SidebarGroupLabel>
+      )}
       <SidebarMenu>
         {items.map((item) => {
-          const isActive = pathname === item.path || (item.path !== "/" && pathname?.startsWith(item.path));
+          const isActive =
+            pathname === item.path ||
+            (item.path !== "/" && pathname?.startsWith(item.path));
           return (
             <SidebarMenuItem key={item.title}>
               <Link
@@ -35,7 +41,10 @@ export function NavGroup({ label, items }: SidebarNavGroup) {
                   <span>{item.title}</span>
                 </div>
                 {item.badge && (
-                  <Badge variant="outline" className="text-[10px] px-1.5 py-0 h-4 border-primary/30 text-primary">
+                  <Badge
+                    variant="outline"
+                    className="text-[10px] px-1.5 py-0 h-4 border-primary/30 text-primary"
+                  >
                     {item.badge}
                   </Badge>
                 )}

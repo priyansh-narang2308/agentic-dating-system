@@ -1,20 +1,18 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { getAllProfiles } from "@/lib/profiles";
 import {
   Search,
   Filter,
   ExternalLink,
-  Sparkles,
   MapPin,
   HeartHandshake,
   Award,
   ArrowRight,
   ShieldCheck,
-  Tag,
 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button, buttonVariants } from "@/components/ui/button";
@@ -198,7 +196,7 @@ export default function ProfilesPage() {
                     </Badge>
                   </div>
                   <p className="text-[11px] text-muted-foreground italic line-clamp-2 pt-0.5">
-                    "{person.bio}"
+                    &quot;{person.bio}&quot;
                   </p>
                 </div>
 

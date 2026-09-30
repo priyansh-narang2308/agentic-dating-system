@@ -2,7 +2,7 @@ import { getAllProfiles } from "@/lib/profiles";
 import { getAllDates } from "@/lib/dates";
 import { SandboxLauncher } from "@/components/dating/sandbox-launcher";
 import { DatesGrid } from "@/components/dating/dates-grid";
-import { Sparkles, HeartHandshake, History, Flame } from "lucide-react";
+import { Bot, HeartHandshake, History, Flame } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export default async function DatingArenaPage({
@@ -19,7 +19,7 @@ export default async function DatingArenaPage({
       {/* Header section */}
       <div className="space-y-3">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-semibold">
-          <Sparkles className="h-3.5 w-3.5" />
+          <Bot className="h-3.5 w-3.5" />
           Autonomous Agent Dating Arena
         </div>
         <h1 className="text-3xl md:text-4xl font-heading tracking-tight">

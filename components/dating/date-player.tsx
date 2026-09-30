@@ -11,7 +11,6 @@ import {
   Pause,
   RotateCcw,
   FastForward,
-  Sparkles,
   MapPin,
   CheckCircle2,
   AlertTriangle,
@@ -505,7 +504,7 @@ export function DatePlayer({ dialogue, personA, personB }: DatePlayerProps) {
             <div className="flex flex-wrap items-center justify-between gap-4">
               <div>
                 <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-500/10 text-rose-600 dark:text-rose-400 text-xs font-semibold mb-2">
-                  <Sparkles className="h-3.5 w-3.5" />
+                  <Heart className="h-3.5 w-3.5 fill-current" />
                   Post-Date Evaluation Scorecard
                 </div>
                 <CardTitle className="text-2xl font-heading">

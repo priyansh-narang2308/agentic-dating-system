@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { PersonProfile } from "@/types";
 import {
-  Sparkles,
   Flame,
   ArrowRight,
   Loader2,
@@ -132,7 +131,7 @@ export function SandboxLauncher({
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2">
             <span className="p-2 rounded-xl bg-primary/10 text-primary">
-              <Sparkles className="h-5 w-5" />
+              <Flame className="h-5 w-5" />
             </span>
             <div>
               <CardTitle className="text-xl font-heading flex items-center gap-2">
@@ -339,7 +338,7 @@ export function SandboxLauncher({
             disabled={
               loading || !personAId || !personBId || personAId === personBId
             }
-            className="w-full sm:w-auto rounded-2xl px-6 py-5 text-sm font-semibold shadow-md bg-linear-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white shrink-0"
+            className="w-full cursor-pointer sm:w-auto rounded-2xl px-6 py-5 text-sm font-semibold shadow-md bg-linear-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white shrink-0"
           >
             {loading ? (
               <>
@@ -348,7 +347,6 @@ export function SandboxLauncher({
               </>
             ) : (
               <>
-                <Flame className="h-4 w-4 mr-2 text-amber-200 fill-amber-200" />
                 Simulate Agent Date Now
                 <ArrowRight className="h-4 w-4 ml-2" />
               </>

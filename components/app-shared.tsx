@@ -3,8 +3,6 @@ import {
   UsersIcon,
   MessageSquareHeartIcon,
   AwardIcon,
-  GlobeIcon,
-  SparklesIcon,
   ShieldCheckIcon,
   CpuIcon,
 } from "lucide-react";
@@ -42,21 +40,6 @@ export const navGroups: SidebarNavGroup[] = [
         title: "Match Rankings",
         path: "/rankings",
         icon: <AwardIcon className="h-4 w-4" />,
-      },
-    ],
-  },
-  {
-    label: "Protocol & System",
-    items: [
-      {
-        title: "Spawn Your Agent",
-        path: "/#onboard",
-        icon: <SparklesIcon className="h-4 w-4 text-primary" />,
-      },
-      {
-        title: "Home / Overview",
-        path: "/",
-        icon: <GlobeIcon className="h-4 w-4" />,
       },
     ],
   },

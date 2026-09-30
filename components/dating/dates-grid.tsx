@@ -6,7 +6,6 @@ import Image from "next/image";
 import { DateDialogue } from "@/types";
 import {
   MapPin,
-  Sparkles,
   ArrowRight,
   Flame,
   CheckCircle2,
@@ -54,7 +53,8 @@ export function DatesGrid({ dates }: DatesGridProps) {
                 : "bg-muted/60 text-muted-foreground hover:text-foreground"
             }`}
           >
-            Date #2 Approved 🎉 ({dates.filter((d) => d.verdict.secondDateApproved).length})
+            Date #2 Approved 🎉 (
+            {dates.filter((d) => d.verdict.secondDateApproved).length})
           </button>
           <button
             onClick={() => setFilter("high-chem")}
@@ -64,7 +64,8 @@ export function DatesGrid({ dates }: DatesGridProps) {
                 : "bg-muted/60 text-muted-foreground hover:text-foreground"
             }`}
           >
-            High Chemistry (90%+) ({dates.filter((d) => d.verdict.overallScore >= 90).length})
+            High Chemistry (90%+) (
+            {dates.filter((d) => d.verdict.overallScore >= 90).length})
           </button>
         </div>
 
@@ -164,16 +165,28 @@ export function DatesGrid({ dates }: DatesGridProps) {
                 {/* Scores breakdown mini bar */}
                 <div className="grid grid-cols-3 gap-2 pt-2 border-t border-border/40 text-center">
                   <div className="p-2 rounded-xl bg-background/50">
-                    <span className="block text-[10px] text-muted-foreground">Chemistry</span>
-                    <span className="text-xs font-bold text-rose-500">{date.verdict.chemistryScore}%</span>
+                    <span className="block text-[10px] text-muted-foreground">
+                      Chemistry
+                    </span>
+                    <span className="text-xs font-bold text-rose-500">
+                      {date.verdict.chemistryScore}%
+                    </span>
                   </div>
                   <div className="p-2 rounded-xl bg-background/50">
-                    <span className="block text-[10px] text-muted-foreground">Lifestyle</span>
-                    <span className="text-xs font-bold text-primary">{date.verdict.lifestyleScore}%</span>
+                    <span className="block text-[10px] text-muted-foreground">
+                      Lifestyle
+                    </span>
+                    <span className="text-xs font-bold text-primary">
+                      {date.verdict.lifestyleScore}%
+                    </span>
                   </div>
                   <div className="p-2 rounded-xl bg-background/50">
-                    <span className="block text-[10px] text-muted-foreground">Values</span>
-                    <span className="text-xs font-bold text-emerald-500">{date.verdict.valuesScore}%</span>
+                    <span className="block text-[10px] text-muted-foreground">
+                      Values
+                    </span>
+                    <span className="text-xs font-bold text-emerald-500">
+                      {date.verdict.valuesScore}%
+                    </span>
                   </div>
                 </div>
 
@@ -187,7 +200,6 @@ export function DatesGrid({ dates }: DatesGridProps) {
                         "w-full rounded-2xl text-xs font-semibold py-4 bg-primary/90 hover:bg-primary text-primary-foreground group-hover:shadow-md transition-all flex items-center justify-center gap-1.5",
                     })}
                   >
-                    <MessageCircle className="h-4 w-4" />
                     Watch 6-Turn Date Replay
                     <ArrowRight className="h-3.5 w-3.5 ml-1 transition-transform group-hover:translate-x-1" />
                   </Link>
