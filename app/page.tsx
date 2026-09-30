@@ -5,8 +5,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { toast } from "sonner";
 import {
-  Users,
-  MessageSquareHeart,
   Award,
   ArrowRight,
   Globe,
@@ -82,13 +80,11 @@ export default function HomePage() {
       <section className="relative">
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute left-1/2 top-0 h-[520px] w-[900px] -translate-x-1/2 bg-[radial-gradient(circle,rgba(255,105,180,0.10),transparent_65%)]" />
-          <div className="absolute inset-0 opacity-[0.035] bg-[linear-gradient(rgba(255,255,255,1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,1)_1px,transparent_1px)] [background-size:48px_48px]" />
+          <div className="absolute inset-0 opacity-[0.035] bg-[linear-gradient(rgba(255,255,255,1)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,1)_1px,transparent_1px)] bg-size-[48px_48px]" />
         </div>
 
         <div className="relative mx-auto max-w-6xl px-6 pb-24 pt-24 sm:pt-32">
           <div className="mx-auto max-w-4xl text-center">
-         
-
             <h1 className="text-balance font-sans text-5xl font-bold leading-[0.98] tracking-[-0.04em] text-[#F8DDEB] sm:text-7xl lg:text-8xl">
               Let your AI
               <br />
@@ -110,7 +106,7 @@ export default function HomePage() {
 
               <Link
                 href="/dating"
-                className="inline-flex h-11 items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-5 text-sm font-medium text-[#D5DDE1] transition-colors hover:border-[#FF69B4]/30 hover:bg-[#FF69B4]/5 hover:text-white"
+                className="inline-flex h-11 items-center gap-2 rounded-full border border-white/10 bg-white/3 px-5 text-sm font-medium text-[#D5DDE1] transition-colors hover:border-[#FF69B4]/30 hover:bg-[#FF69B4]/5 hover:text-white"
               >
                 Enter dating arena
               </Link>
@@ -145,7 +141,7 @@ export default function HomePage() {
                       key={preset.label}
                       type="button"
                       onClick={() => handleApplyPreset(preset.li, preset.ig)}
-                      className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1.5 text-xs font-medium text-[#AAB5BA] transition-colors hover:border-[#FF69B4]/30 hover:bg-[#FF69B4]/5 hover:text-[#FFD1E6]"
+                      className="rounded-full border border-white/10 bg-white/3 px-3 py-1.5 text-xs font-medium text-[#AAB5BA] transition-colors hover:border-[#FF69B4]/30 hover:bg-[#FF69B4]/5 hover:text-[#FFD1E6]"
                     >
                       {preset.label}
                     </button>
@@ -188,7 +184,7 @@ export default function HomePage() {
                   <Button
                     type="submit"
                     disabled={loading}
-                    className="h-11 w-full rounded-lg bg-[#FF69B4] text-sm font-bold text-[#0D1B23] shadow-[0_2px_0_#9D286B] transition-all hover:bg-[#FF85C1] active:translate-y-[1px] active:shadow-none"
+                    className="h-11 w-full rounded-lg bg-[#FF69B4] text-sm font-bold text-[#0D1B23] shadow-[0_2px_0_#9D286B] transition-all hover:bg-[#FF85C1] active:translate-y-px active:shadow-none"
                   >
                     {loading ? (
                       <>

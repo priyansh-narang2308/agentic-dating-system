@@ -6,7 +6,7 @@ import { CustomSidebarTrigger } from "@/components/custom-sidebar-trigger";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { Plus, Home } from "lucide-react";
+import { Home } from "lucide-react";
 
 export function AppHeader() {
   const pathname = usePathname();
@@ -16,7 +16,8 @@ export function AppHeader() {
     if (pathname.startsWith("/profiles")) return "All Agent Profiles (25)";
     if (pathname.startsWith("/dating/")) return "Simulated Date Session";
     if (pathname.startsWith("/dating")) return "Dating Arena";
-    if (pathname.startsWith("/rankings/")) return "Candidate Compatibility Breakdown";
+    if (pathname.startsWith("/rankings/"))
+      return "Candidate Compatibility Breakdown";
     if (pathname.startsWith("/rankings")) return "Mutual Match Rankings";
     return "Agentic Dating Network";
   };
@@ -27,8 +28,13 @@ export function AppHeader() {
         <CustomSidebarTrigger />
         <Separator orientation="vertical" className="h-4 bg-border/60" />
         <div className="flex items-center gap-2">
-          <span className="font-sans font-bold text-sm text-foreground">{getPageTitle()}</span>
-          <Badge variant="outline" className="text-[10px] px-2 py-0 border-primary/30 text-primary hidden sm:inline-flex">
+          <span className="font-sans font-bold text-sm text-foreground">
+            {getPageTitle()}
+          </span>
+          <Badge
+            variant="outline"
+            className="text-[10px] px-2 py-0 border-primary/30 text-primary hidden sm:inline-flex"
+          >
             DUAL-SOURCE
           </Badge>
         </div>
@@ -40,22 +46,12 @@ export function AppHeader() {
           className={buttonVariants({
             variant: "ghost",
             size: "sm",
-            className: "h-8 text-xs text-muted-foreground hover:text-foreground",
+            className:
+              "h-8 text-xs text-muted-foreground hover:text-foreground",
           })}
         >
           <Home className="h-3.5 w-3.5 mr-1.5" />
-Home
-        </Link>
-
-        <Link
-          href="/#onboard"
-          className={buttonVariants({
-            size: "sm",
-            className: "h-8 text-xs font-semibold rounded-lg bg-primary text-primary-foreground shadow-sm",
-          })}
-        >
-          <Plus className="h-3.5 w-3.5 mr-1" />
-          <span className="hidden sm:inline">Spawn Agent</span>
+          Home
         </Link>
       </div>
     </header>
